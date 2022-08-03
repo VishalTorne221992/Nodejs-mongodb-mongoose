@@ -1,0 +1,56 @@
+GET http://localhost:5252/zomato/locations
+
+###
+
+POST http://localhost:5252/zomato/restaurants/filter/1
+Content-Type: application/json
+
+{
+    "lcost":"500",
+    "hcost": "1000",
+    "sort": -1
+   
+}
+
+###
+
+POST http://localhost:5252/zomato/register
+Content-Type: application/json
+
+{
+    "usernameForm": "kelvin ckaikn",
+    "userPasswordForm":"shssksjeams",
+    "useremailForm":"heeaksclothse@jeanssa.com",
+    "userAddressForm":"niceclothes"
+    
+}
+
+###
+
+POST http://localhost:5252/zomato/login
+Content-Type: application/json
+
+{
+    "username":"John",
+    "password":"John1"
+}
+
+###
+
+GET http://localhost:5252/zomato/TestPage
+
+
+###
+
+POST http://localhost:5252/payment/razorpay
+Content-Type: application/json
+
+{
+    "amount": 200
+}
+
+
+###
+
+DELETE http://localhost:5252/zomato/logout
+Content-Type: application/json
