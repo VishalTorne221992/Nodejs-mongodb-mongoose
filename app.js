@@ -73,9 +73,9 @@ if(process.env.NODE_ENV=="production"){
     app.use(express.static(path.resolve(__dirname, "vrestaurant/build/index.html")))
     const path = require('path')
     console.log(path.resolve(__dirname, "vrestaurant/build/index.html"),'this is the path that needs to be resolved')
-    // app.get("*", (req, res) => {
-    //     res.sendFile(path.resolve(__dirname, "vrestaurant/build/index.html"))
-    // })
+    app.get("/*", (req, res) => {
+        res.sendFile(path.resolve(__dirname, "vrestaurant/build/index.html"))
+    })
 }
 
 //listen to a port
