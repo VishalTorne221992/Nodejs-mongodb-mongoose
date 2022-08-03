@@ -1,0 +1,222 @@
+[
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 87,
+         "itemName" : "Gobi Manchurian",
+         "itemImage" : "Assets/Images/Gobi_Manchurian.jpg",
+         "itemDescription" : "Deep fried Cauli Flower flores toasted",
+         "isVeg" : false,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 49,
+         "itemName" : "Lemon Rice",
+         "itemImage" : "Assets/Images/Lemon_Rice.jpg",
+         "itemDescription" : "Deep fried Lemon Rice",
+         "isVeg" : true,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 166,
+         "itemName" : "Chicked Fried Rice",
+         "itemImage" : "Assets/Images/Chicken_friedRice.jpg",
+         "itemDescription" : "Tasty Authentic chinese Chicken fried rice",
+         "isVeg" : false,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 180,
+         "itemName" : "Mutton Biryani",
+         "itemImage" : "Assets/Images/MuttonBiryani.jpg",
+         "itemDescription" : "Tasty Mutton Biryani",
+         "isVeg" : false,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 123,
+         "itemName" : "Chicken Lollypop",
+         "itemImage" : "Assets/Images/ChickenLollypop.jpg",
+         "itemDescription" : "Tasty Mutton Biryani",
+         "isVeg" : false,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "69797fsaa7870709709",
+        "itemPrice" : 44,
+         "itemName" : "Curd Rice",
+         "itemImage" : "Assets/Images/CurdRice.jpg",
+         "itemDescription" : "Veg Curd Rice",
+         "isVeg" : true,
+         "restaurantName" : "Gulab"
+    },
+
+    {
+
+        "restaurantId" : "89696969hhfd33448",
+        "itemPrice" : 183,
+         "itemName" : "Chicken Biryani",
+         "itemImage" : "Assets/Images/ChickenBiryani.jpg",
+         "itemDescription" : "Tasty Chicken Biryani",
+         "isVeg" : false,
+         "restaurantName" : "Food Adda"
+    },
+
+    {
+
+        "restaurantId" : "89696969hhfd33448",
+        "itemPrice" : 183,
+         "itemName" : "Chicken Afgani",
+         "itemImage" : "Assets/Images/ChickenAfgani.jpg",
+         "itemDescription" : "Tasty Chicken Afgani",
+         "isVeg" : false,
+         "restaurantName" : "Food Adda"
+    },
+
+    {
+
+        "restaurantId" : "89696969hhfd33448",
+        "itemPrice" : 99,
+         "itemName" : "Chicken Masala Curry",
+         "itemImage" : "Assets/Images/ChickenMasalaCurry.jpg",
+         "itemDescription" : "Chicken Masala Curry tasty and delicious",
+         "isVeg" : false,
+         "restaurantName" : "Food Adda"
+    },
+
+    {
+
+        "restaurantId" : "5432288vhklg222222",
+        "itemPrice" : 139,
+         "itemName" : "Egg Fried Masala Curry",
+         "itemImage" : "Assets/Images/EggFriedMasala.jpg",
+         "itemDescription" : "Chicken Masala Curry tasty and delicious",
+         "isVeg" : false,
+         "restaurantName" : "Apna Punjab"
+    },
+
+    {
+
+        "restaurantId" : "5432288vhklg222222",
+        "itemPrice" : 199,
+         "itemName" : "Egg Fried Rice",
+         "itemImage" : "Assets/Images/EggFriedRice.jpg",
+         "itemDescription" : "Egg Fried Rice with soya sauce",
+         "isVeg" : false,
+         "restaurantName" : "Apna Punjab"
+    },
+
+    {
+
+        "restaurantId" : "5432288vhklg222222",
+        "itemPrice" : 199,
+         "itemName" : "Tomato Rice",
+         "itemImage" : "Assets/Images/TomatoRice.jpg",
+         "itemDescription" : "Veg Tomato rice with fresh tomatoes",
+         "isVeg" : true,
+         "restaurantName" : "Apna Punjab"
+    },
+
+    {
+
+        "restaurantId" : "4206397hhjlsbsnekehedd",
+        "itemPrice" : 122,
+         "itemName" : "Paratha Chicken",
+         "itemImage" : "Assets/Images/ParathaChicken.jpg",
+         "itemDescription" : "Delicious with authentic indian taste",
+         "isVeg" : false,
+         "restaurantName" : "Pandit Ji Paratha Hut"
+    },
+
+    {
+
+        "restaurantId" : "4206397hhjlsbsnekehedd",
+        "itemPrice" : 140,
+         "itemName" : "Veg Biryani",
+         "itemImage" : "Assets/Images/VegBiryani.jpg",
+         "itemDescription" : "Delicious with authentic indian taste",
+         "isVeg" : true,
+         "restaurantName" : "Pandit Ji Paratha Hut"
+    },
+
+    {
+
+        "restaurantId" : "4206397hhjlsbsnekehedd",
+        "itemPrice" : 135,
+         "itemName" : "Chana Masala",
+         "itemImage" : "Assets/Images/ChanaMasala.jpg",
+         "itemDescription" : "Delicious with authentic indian taste",
+         "isVeg" : true,
+         "restaurantName" : "Pandit Ji Paratha Hut"
+    },
+    {
+
+        "restaurantId" : "4206397hhjlsbsnekehedd",
+        "itemPrice" : 175,
+         "itemName" : "Veg Thali",
+         "itemImage" : "Assets/Images/VegThali.jpg",
+         "itemDescription" : "Delicious with authentic indian taste",
+         "isVeg" : true,
+         "restaurantName" : "Pandit Ji Paratha Hut"
+    },
+
+    {
+
+        "restaurantId" : "3292jjbjklk333333555",
+        "itemPrice" : 110,
+         "itemName" : "Vegetable Soup",
+         "itemImage" : "Assets/Images/Veg_soup.jpg",
+         "itemDescription" : "Delicious with authentic taste",
+         "isVeg" : true,
+         "restaurantName" : "Empire Restaurant"
+    },
+
+    {
+
+        "restaurantId" : "3292jjbjklk333333555",
+        "itemPrice" : 155,
+         "itemName" : "Chicken Fried Rice",
+         "itemImage" : "Assets/Images/ChickenFriedRice.jpg",
+         "itemDescription" : "Delicious with authentic taste",
+         "isVeg" : false,
+         "restaurantName" : "Empire Restaurant"
+    },
+
+    {
+
+        "restaurantId" : "3292jjbjklk333333555",
+        "itemPrice" : 178,
+         "itemName" : "Chicken Pahadi Kabab",
+         "itemImage" : "Assets/Images/ChickenPahadiKabab.jpg",
+         "itemDescription" : "Delicious with authentic taste",
+         "isVeg" : false,
+         "restaurantName" : "Empire Restaurant"
+    },
+
+    {
+
+        "restaurantId" : "3292jjbjklk333333555",
+        "itemPrice" : 175,
+         "itemName" : "Chicken Masala",
+         "itemImage" : "Assets/Images/ChanaMasala.jpg",
+         "itemDescription" : "Delicious with authentic taste",
+         "isVeg" : false,
+         "restaurantName" : "Empire Restaurant"
+    }
+    
+
+]

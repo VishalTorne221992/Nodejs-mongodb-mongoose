@@ -1,0 +1,148 @@
+*{
+    overflow-y: inherit;
+    font-family: Poppins;
+    
+}
+
+
+/* //login */
+
+
+
+.headerDetails{
+
+  padding: 20px;
+  height: 75px;  
+  background-color: red;
+  
+}
+
+.RestaurantICON{
+  position: absolute;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 150px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 27px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-left: 18px;
+  margin-top: -12px;
+  
+}
+
+.LoginDiv{
+  display: inline;
+}
+
+.CreateaccDiv{
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;  
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 20px;
+  border: 2px solid whitesmoke;
+  
+}
+
+
+
+
+.RestaurantDetailImage{
+    background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: gold;
+    height: 290px;
+    
+}
+
+
+  
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    font-family: sans-serif;
+    margin-left: 5px;
+  }
+  
+  .tabs__label {
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 1;
+    width: 100%;
+  
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+    font-family: Poppins;
+    margin-left: 2px;
+    
+  }
+  
+  .tabs__radio:checked + .tabs__label {
+    font-weight: bold;
+    color: #009578;
+    border-bottom: 2px solid red;
+  }
+  
+  .tabs__radio:checked + .tabs__label + .tabs__content {
+    display: initial;
+  }
+  
+
+  #RestCost{
+      display: inline;
+  }
+
+  .ContainerRestaurantDetails{
+     
+      margin-top: 23px;
+      margin-left: 120px;
+      margin-right: 120px;
+      height: 350px;
+  }
+
+  .RestaurantName{
+    width: 390px;
+    height: 75px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #192f60;
+  }
+
+  #AboutThisPlace, #CuisineHeading, #AvgCost, #RestAddress, #RestContactNumber{
+    font-weight: bolder;
+    color: #192f60;
+  }
+
+  #ContactTab{
+    margin-left: 10px;
+  }
+
+  
+  .galleryButton{
+    color: rgb(7, 7, 80);
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-top: 210px;
+    width: 250px;
+    height: 60px;
+    opacity: 75%;
+    font-weight: bolder;
+  }

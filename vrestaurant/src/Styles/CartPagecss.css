@@ -1,0 +1,27 @@
+
+
+.grid-container{
+    display: grid;    
+    font-size: 20px;
+    font-weight: bolder;
+        
+}
+
+.grid-header{
+     grid-column-start: 1;
+     grid-column-end: 4;
+        
+}
+
+.gridItemsCart{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(13, 2, 63);
+
+}
+
+
+
+
+

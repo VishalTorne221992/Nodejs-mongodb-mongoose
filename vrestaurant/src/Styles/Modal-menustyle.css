@@ -1,0 +1,14 @@
+.Modal {
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    right: 100px;
+    left: 220px;
+    padding: 30px;
+    top: 30px;
+    bottom: 10px;
+    background-color: white;
+    box-shadow: 0 8px 6px 5px rgba(0, 0, 0, 0.16); 
+    
+
+  }

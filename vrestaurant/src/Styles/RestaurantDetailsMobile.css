@@ -1,0 +1,283 @@
+@media screen and (max-width:600px){
+
+
+
+.RestaurantDetailImage{
+    background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: gold;
+    height: 290px;
+    width: 530px;
+    overflow: hidden;
+}
+
+.RestaurantName{
+    position: absolute;
+    left: 10px;
+}
+
+.PlaceOrder{
+    position: absolute;
+    left: 3px;
+    top: 480px;
+}
+
+.tabs{
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+
+.tabs__content{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.NameInModal{
+  font-size: 30px;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.ulModalMenu{
+    padding-left: 8px;
+}
+
+.ModalItemName{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 2px
+}
+
+.ModalItemPrice{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.ModalItemDescription{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0px;
+    color: darkgreen;
+}
+
+.MenuButtonModal{
+    position: absolute;
+    width: 140px;
+    right: 28px;
+    margin-top: -58px;
+    padding-left: 20px;
+    
+
+}
+
+.minus{
+    
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+
+.minusSign{
+    position: absolute;
+    display: inline-block;
+    margin-right: 10px;
+    top: 5px;
+    left: 31px;
+}
+
+.quantityMenuStyle{
+
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+
+.quantityMenuStyleDisplay{
+
+    position: absolute;
+    display: inline-block;
+    margin-right: 10px;
+    top: 5px;
+    left: 70px;
+
+}
+
+.plus{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.plusSign{
+    position: absolute;
+    display: inline-block;
+    margin-right: 10px;
+    top: 5px;
+    left: 109px;
+}
+
+.TotalPriceMenuDisplay{
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline;
+}
+
+.ConfirmButton{
+
+    float: right;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.clearItems{
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    top:25px;
+    width: 120px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+
+}
+
+
+@media screen and (min-width:600px){
+
+.MenuButtonModal{
+    position: absolute;
+    width: 300px;
+    right: 45px;
+    margin-top: -70px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+
+
+.NameInModal{
+
+    overflow: hidden;
+    font-size: 40px;
+    font-weight:bolder;
+
+}
+
+.ModalItemName{
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+.ModalItemPrice{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.ModalItemDescription{
+    font-size: 18px;
+    font-weight: bolder;
+    color: darkgreen;
+    
+}
+
+.ulModalMenu{
+    padding-left: 65px;
+}
+
+.minus{
+    
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+
+.minusSign{
+    position: absolute;
+    display: inline-block;
+    font-size: 45px;
+    margin-right: 10px;
+    top: 5px;
+    left: 31px;
+}
+
+.quantityMenuStyle{
+
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+
+.quantityMenuStyleDisplay{
+
+    position: absolute;
+    display: inline-block;
+    font-size: 45px;
+    margin-right: 10px;
+    top: 5px;
+    left: 110px;
+
+}
+
+.plus{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.plusSign{
+    position: absolute;
+    font-size: 45px;
+    display: inline-block;
+    margin-right: 10px;
+    top: 5px;
+    left: 189px;
+}
+
+.TotalPriceMenuDisplay{
+    overflow: hidden;
+    font-size: 55px;
+    margin-left: 60px;
+}
+
+.ConfirmButton{
+
+    float: right;
+    margin-top: -75px;
+    margin-right: 80px;
+    width: 250px;
+    height: 70px;
+}
+
+.confirmbtnText{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.clearItems{
+    display: inline-block;
+    position: absolute;
+    left: 965px;
+    top:90px;
+}
+    
+}

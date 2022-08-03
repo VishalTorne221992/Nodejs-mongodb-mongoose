@@ -1,0 +1,506 @@
+@media screen and (max-width:600px){
+
+    .title-text{
+
+        font-size: 27px;
+        margin-left: -60px;
+        margin-top: 12px;
+
+    }
+
+    /* Filter Box */
+
+
+    .filters-article{
+    
+        position: absolute;
+        width: 162px;
+        height: 580px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+        background-color: white;
+        top:160px;
+        left: 8px;
+    }
+
+    .Filters{
+        left:12px;
+    }
+    
+
+    .Select-Location-label {
+        position: absolute;
+        width: 106px;
+        height: 20px;
+        margin: 10px 102px 11px 1px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        left: 12px;
+        top: 52px;
+        
+      }
+
+      .Select_Location{
+        position: absolute;
+        width: 130px;
+        height: 35px;
+        border-radius: 3px;
+        border: solid 1px #bec8dd;
+        top:95px;
+        left: 12px;
+      }
+
+      #Select_Location_box{
+        padding-left: 15px;
+        width: 130px;
+        height: 35px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+      
+       }
+
+       .cuisine_type{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        left: 12px;
+        top:143px;
+        
+    }
+
+    .cuisine_type #cuisine_type_text{
+        position: absolute;
+        width: 106px;
+        height: 20px;
+        margin: 10px 102px 11px 1px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+    }
+
+    .cuisine_type_checkbox{
+        position: absolute;
+        width: 170px;
+        height: 130px;
+        top:38px;
+        font-family: Poppins;
+        font-size: 12px;
+        color: #8c96ab;
+        font-weight: bolder;
+    }
+
+    .cuisine_type_checkbox > input{
+        width: 15px;
+        height: 15px;
+        vertical-align: -2px;
+        margin: 5px;
+        
+    }
+
+     .cuisine_filter_cost{
+        position: absolute;
+        width: 180px;
+        height: 170px;
+        left: 12px;
+        top: 330px;
+       
+    }
+
+    #cuisine_filter_cost_text{
+        position: absolute;
+        width: 106px;
+        height: 20px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+    }
+
+    .cuisine_type_radio{
+        position: absolute;
+        width: 200px;
+        height: 250px;
+        top:25px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+    
+    }
+
+    .cuisine_type_radio > input{
+        width: 18px;
+        height: 18px;
+        margin: 3px;
+        border-radius: 9px;
+        border: solid 1.5px #3a5075;
+        vertical-align: -5px;
+      
+    }
+
+    .cuisine_filter_sort{
+        position: absolute;
+        width: 170px;
+        height: 120px;
+        left: 12px;
+        top: 480px;
+        font-size: 12px;
+        
+    }
+
+    .Sort{
+
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+  
+    }
+
+    .form-check-label{
+        color: rgb(29, 11, 110);
+    }
+
+
+    /* Results for Restaurant CSS*/
+
+    .result1-article{
+
+        width: 303px;
+        height: 200px; 
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+        background-color: white;
+        margin-top: 90px;   
+        margin-left: 176px; 
+ 
+    }
+
+    .result1-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        position: relative;
+        left: 5px;
+        top: 25px;
+        background-color: red;
+      }
+    
+      .shutterstock_1154073754 {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        object-fit: cover;
+    }
+
+      .cat-title{
+        position: relative;
+        left: 55px;
+        top:1px;
+        width: 450px;
+        height: 90px;
+        margin-bottom: 10px;
+        
+        
+    }
+    
+    .The-Big-Chill-Cakery {
+        position: absolute;
+        width: 450px;
+        height: 90px;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 900;
+        color: #192f60;
+       
+    }
+
+    .location1{
+        position: absolute;
+        top: 22px;
+        left: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 605;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+    }
+    
+    .Address1{
+        position: absolute;
+        top: 44px;
+        left: 0px;
+        width: 420px;
+        font-size: 11px;
+        height: 23px;
+        font-family: Poppins;
+        color: #636f88;
+        
+        
+    }
+
+    .Path-6195 {
+        width: 240px;
+        height: 0;
+        margin-left: 59px;
+        margin-top: 55px;
+        border: solid 1px #dedfe5;
+      }
+
+    .cuisine-cost{
+    
+        width: 200px;
+        height: 78px;
+        margin-left: 8px;
+        margin-top: 7px;
+        padding-top: 10px;
+        padding-left: 50px;
+       
+    }
+
+    .CUISINES-COST-FOR-TWO{
+ 
+        padding-left: 0px;
+        width: 120px;
+        height: 118px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+    }
+
+    .cuisine-content{
+        margin-left: 160px;
+        margin-top: -72px;
+        line-height: 28px;
+        color: #192f60;
+        font-size: 11px;
+    }
+
+
+    /* Pagination */
+
+
+    .pagination {
+        
+        position: absolute;
+        left: 100px;
+        width: 280px;
+        margin-top: -30px;
+        margin-left: 190px;
+        
+        
+    }
+
+
+    .paginationdiv{
+        
+        margin-left: 12px;
+        width: 28px;
+        height: 27px;
+        background-color: white;
+        padding-top: -35px;
+        text-decoration: none;
+        border-radius: 7px;
+        border: solid 1px #8c96ab;
+
+
+    }
+
+    .pageNum{
+        text-decoration: none;
+        
+        
+    } 
+
+    .pagnumText{
+        font-size: 10px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+        
+    }
+
+    .page0{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        margin: 0 13px 0 0;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 7px;
+        border: solid 1px #8c96ab;
+        background-color: #fff;
+        left:40px;
+        text-align: center;
+    }
+
+    .page1{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        margin: 0 13px 0 0;
+        padding-right: 8px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 7px;
+        border: solid 1px #8c96ab;
+        background-color: #8c96ab;
+        left:95px;
+    }
+
+
+
+    .pagination > div > a  {
+
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: -0.9px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.7;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c96ab;
+    }
+
+    .selected {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: -0.9px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.7;
+        letter-spacing: normal;
+        text-align: center;
+        color:#fff;
+    }
+
+    .pagination > div:hover {
+        background-color: #e5e9f1;
+    }
+
+/*             ***********           */
+
+/* Login Section   */ 
+
+.RestaurantICON{
+    
+     position: absolute;
+     left: -80px;
+
+  }
+
+  .GuestOrUser{
+    margin-left: 80px;
+  }
+
+  .LoginDiv{
+    position: absolute;
+    display: inline-block;
+   
+    color:whitesmoke;
+    width:max-content;
+    left: 180px;
+    margin-top: 5px;
+    
+   }
+
+   .userLogin{
+    margin-left: 40px;
+   }
+
+   .userLogoutdiv{
+    margin-top: -43px;
+    margin-left: 110px;
+   }
+
+/* *************   */
+
+}
+
+
+@media screen and (min-width:780px){
+
+    .cuisine-content{
+        margin-left: 210px;
+        margin-top: -67px;
+        line-height: 29.2px;
+        color: #192f60;
+    }
+
+    .LoginDiv{
+
+        height:65px;
+        padding:12px ;
+        color:whitesmoke;
+        width:250px;
+        float:right;
+        position:relative;
+        top:-8px;
+        margin-right:245px;
+    }
+
+    .userLogin{
+        margin-left: 20px;
+    }
+
+    .userLogoutdiv{
+        position: absolute;
+        top: -4px;
+        margin-left: 110px;
+    }
+    
+}

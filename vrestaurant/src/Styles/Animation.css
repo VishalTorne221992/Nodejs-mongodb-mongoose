@@ -1,0 +1,71 @@
+
+
+
+@media screen and (max-width:600px){
+
+
+  .transitionImage{
+    position: absolute;
+    width: 80px;
+    top: 588px;
+    width: 60px;
+    z-index: -1;
+    animation-name: imgAnimation;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes imgAnimation {
+
+    from{
+      left: 20px;
+    }
+  
+    to{
+      left: 2px;
+    }
+    
+  }
+
+
+}
+
+@media screen and (min-width:600px){
+
+  .transitionImage{
+
+
+    /*   common style*/
+
+    position: absolute;
+    width: 90px;
+    top:508px;
+    right: 632px;
+    z-index: -1;
+
+
+    /*  Animation */
+
+    animation-name: imgAnimation;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes imgAnimation {
+
+  from{
+    right: 690px;
+  }
+
+  to{
+    right: 665px;
+  }
+  
+}
+
+}
+
