@@ -72,10 +72,10 @@ app.use('/payment', paymentRoutes)
 // heroku configuration
 if(process.env.NODE_ENV=="production"){
     const path = require('path')
-    app.use(express.static(path.resolve(__dirname, "vrestaurant/build/index.html")))
+    app.use(express.static(path.resolve(__dirname, "vrestaurant/build")))
     console.log(path.resolve(__dirname, "vrestaurant/build/index.html"),'this is the path that needs to be resolved')
     app.get("/*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, "vrestaurant/build/index.html"))
+        res.sendFile(path.resolve(__dirname, "vrestaurant", "build", "index.html"))
     })
 }
 
