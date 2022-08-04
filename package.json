@@ -2,7 +2,7 @@
   "name": "nodejs-mongodb-mongoose",
   "version": "1.0.0",
   "engines": {
-    "node": "17.x",
+    "node": "16.x",
     "npm": "8.x"
   },
   "description": "",
