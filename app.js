@@ -28,6 +28,7 @@ app.use(cors())
 const uri = process.env.MONGO_URI || 'mongodb://localhost/zomato';
 
 console.log(uri, "this is the uri")
+console.log('this is hi from GitHub')
 
 const options = {
     useNewUrlParser: true,
