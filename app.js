@@ -25,7 +25,7 @@ app.use(cors())
 
 //connect to mongoDB
 
-const uri = 'mongodb+srv://vishal_torne_22:gowHfFl8pfW83PLj@db-first-hernode.zu6btrs.mongodb.net/zomato1?retryWrites=true&w=majority';
+const uri = process.env.MONGO_URI || 'mongodb://localhost/zomato';
 
 console.log(uri, "this is the uri")
 
