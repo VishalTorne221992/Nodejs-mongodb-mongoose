@@ -53,7 +53,7 @@ app.use(session({
     saveUninitialized: false,
     cookie: { maxAge: 24*60*60*1000 },
     store   : MongoStore.create({ 
-        mongoUrl: uri,
+        client: mongoose.connection.getClient(),
         ttl: 14 * 24 * 60 * 60
      })
     
