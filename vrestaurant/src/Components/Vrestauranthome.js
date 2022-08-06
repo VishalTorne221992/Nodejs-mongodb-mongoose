@@ -51,7 +51,7 @@ export default class Vrestauranthome extends Component {
         
         this.setState({ currentUsername: localStorage.getItem('user') })
 
-        fetch('https://v-restaurant.herokuapp.com/locations', { method: 'GET' })
+        fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET' })
             .then(response => response.json())
             .then(data => this.setState({ locations: data.data }))
 
@@ -66,7 +66,7 @@ export default class Vrestauranthome extends Component {
 
     fetchRestaurants = (event) => {
 
-        fetch(`https://v-restaurant.herokuapp.com/restaurants/${event.target.value}`, { method: 'GET' })
+        fetch(`https://v-restaurant.herokuapp.com/zomato/restaurants/${event.target.value}`, { method: 'GET' })
             .then(response => response.json())
             .then(data => {
                 this.setState({ restaurants: data.result })
