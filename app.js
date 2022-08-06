@@ -43,10 +43,9 @@ mongoose.connect(uri, options).then(() => {
 }).catch(e => console.log(e))
 
 
-
-mongoose.connection.on('connected', () => {
-    console.log('mongoose is connected')
-})
+// mongoose.connection.on('connected', () => {
+//     console.log('mongoose is connected')
+// })
 
 // create and connect to mongostore (connect-mongodb-session)
 
