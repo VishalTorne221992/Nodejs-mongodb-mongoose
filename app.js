@@ -83,8 +83,8 @@ app.use(passport.session());
 
 
 // middleware routes
-app.use('/zomato', zomatoRoutes)
-app.use('/payment', paymentRoutes)
+app.use('https://v-restaurant.herokuapp.com/zomato', zomatoRoutes)
+app.use('https://v-restaurant.herokuapp.com/payment', paymentRoutes)
 
 
 // heroku configuration
