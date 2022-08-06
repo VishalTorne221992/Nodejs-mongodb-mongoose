@@ -71,7 +71,7 @@ app.use(session({
     store: MongoStore.create({ 
         client: mongoose.connection.getClient(),
         dbName:'zomato1',
-        autoRemove: 'native',
+        autoRemove: 'disabled',
         ttl: 14 * 24 * 60 * 60
      })
     
