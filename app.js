@@ -54,15 +54,15 @@ var store = new MongoDBStore(
     uri: uri,
     databaseName: 'zomato1',
     collection: 'sessions',
-    expires: 14 * 24 * 60 * 60,
+    expires: 14 * 24 * 60 * 60
       
-    connectionOptions: {
+//     connectionOptions: {
         
-       useNewUrlParser: true,
-       useUnifiedTopology: true,
-       serverSelectionTimeoutMS: 10000
+//        useNewUrlParser: true,
+//        useUnifiedTopology: true,
+//        serverSelectionTimeoutMS: 10000
         
-    }
+//     }
   },
     
   function(error) {
