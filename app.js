@@ -60,7 +60,7 @@ var store = new MongoDBStore({
 
 // Catch errors
 store.on('error', function(error) {
-  console.log(error);
+  console.log(error,'this is store on error error log');
 });
 
 
