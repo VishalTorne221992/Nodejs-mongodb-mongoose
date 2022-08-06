@@ -66,7 +66,7 @@ var store = new MongoDBStore(
   },
     
   function(error) {
-    console.log('error in creating mongo session')
+    console.log('error in creating mongo session',error)
 });
 
 store.on('error', function(error) {
