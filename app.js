@@ -10,7 +10,7 @@ const mongoose = require('mongoose')
 const passport = require("passport")
 const LocalStrategy = require("passport-local")
 const passportLocalMongoose = require("passport-local-mongoose")
-const MongoStore = require('connect-mongo')(session);
+const MongoStore = require('connect-mongo');
 //const MongoClient = require("mongodb").MongoClient;
 //var MongoDBStore = require('connect-mongodb-session')(session);
 
