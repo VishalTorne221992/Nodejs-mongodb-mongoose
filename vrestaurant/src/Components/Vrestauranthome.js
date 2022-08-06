@@ -51,7 +51,7 @@ export default class Vrestauranthome extends Component {
         
         this.setState({ currentUsername: localStorage.getItem('user') })
 
-        fetch('http://localhost:5252/zomato/locations', { method: 'GET' })
+        fetch('https://v-restaurant.herokuapp.com/locations', { method: 'GET' })
             .then(response => response.json())
             .then(data => this.setState({ locations: data.data }))
 
@@ -66,7 +66,7 @@ export default class Vrestauranthome extends Component {
 
     fetchRestaurants = (event) => {
 
-        fetch(`http://localhost:5252/zomato/restaurants/${event.target.value}`, { method: 'GET' })
+        fetch(`https://v-restaurant.herokuapp.com/restaurants/${event.target.value}`, { method: 'GET' })
             .then(response => response.json())
             .then(data => {
                 this.setState({ restaurants: data.result })
@@ -173,7 +173,7 @@ export default class Vrestauranthome extends Component {
 
         // When users gives user details post to node and get register success or failure message
 
-            fetch('http://localhost:5252/zomato/register', requestOptions)
+            fetch('https://v-restaurant.herokuapp.com/register', requestOptions)
                 .then(res => res.json())
                 .then(data => this.setState({ registerMessage: data.message }))
 
@@ -205,7 +205,7 @@ export default class Vrestauranthome extends Component {
         }
 
 
-        fetch('http://localhost:5252/zomato/login', {
+        fetch('https://v-restaurant.herokuapp.com/login', {
             method: 'POST',
             redirect: 'follow',
             headers: { 'Content-Type': 'application/json' },
