@@ -51,7 +51,7 @@ export default class Vrestauranthome extends Component {
         
         this.setState({ currentUsername: localStorage.getItem('user') })
 
-        fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET' })
+        fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET', mode:'cors' })
             .then(response => response.json())
             .then(data => this.setState({ locations: data.data }))
 
@@ -166,6 +166,7 @@ export default class Vrestauranthome extends Component {
         const requestOptions = {
 
             method: 'POST',
+            mode:'cors',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(userDetails)
 
