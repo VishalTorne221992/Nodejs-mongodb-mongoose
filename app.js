@@ -53,6 +53,8 @@ mongoose.connection.on('connected', () => {
 var store = new MongoDBStore({
   uri: uri,
   collection: 'sessions'
+}function(error){
+    console.log(error,'this is the error')
 });
 
 // Catch errors
