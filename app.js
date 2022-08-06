@@ -70,7 +70,8 @@ app.use(session({
     cookie: { maxAge: 24*60*60*1000 },
     store: MongoStore.create({ 
         client: mongoose.connection.getClient(),
-        dbName:'zomato',
+        dbName:'zomato1',
+        autoRemove: 'native',
         ttl: 14 * 24 * 60 * 60
      })
     
