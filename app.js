@@ -52,9 +52,7 @@ mongoose.connection.on('connected', () => {
 var store = new MongoDBStore(
   {
     uri: uri,
-    databaseName: 'zomato1',
-    collection: 'sessions',
-    expires: 14 * 24 * 60 * 60
+    collection: 'sessions'
       
 //     connectionOptions: {
         
