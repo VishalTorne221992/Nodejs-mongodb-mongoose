@@ -53,7 +53,7 @@ export default class Vrestauranthome extends Component {
 
         fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET', mode:'cors' })
             .then(response => response.json())
-            .then(data => this.setState({ locations: data.data }))
+            .then(data => {this.setState({ locations: data.data })})
 
         const Localuser = localStorage.getItem('user')
 
@@ -266,7 +266,7 @@ export default class Vrestauranthome extends Component {
 
     render() {
 
-
+        console.log(this.state.locations,'these are the locations');
         let locationList = this.state.locations.length && this.state.locations.map((item) => <option key={item.name} value={item.city_id}>{item.name}</option>)
 
         // Create Restaurant unordered List to show when user selects Restaurant name from dropdown
