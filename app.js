@@ -23,7 +23,9 @@ var app = express()
 
 // add middleware before routes
 app.use(bodyParser.json())
-app.use(cors())
+app.use(cors({
+    origin: 'https://v-restaurant.herokuapp.com'
+}))
 
 //connect to mongoDB
 
