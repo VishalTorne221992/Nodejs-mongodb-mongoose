@@ -24,7 +24,7 @@ export default class QuickSearch extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:5252/zomato/mealtype', { method: 'GET' })
+        fetch('https://v-restaurant.herokuapp.com/zomato/mealtype', { method: 'GET', headers: {"Access-Control-Allow-Origin": "*"} })
             .then(response => response.json())
             .then(data => this.setState({ mealtypes: data.data }))
     }
