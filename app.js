@@ -10,8 +10,9 @@ const mongoose = require('mongoose')
 const passport = require("passport")
 const LocalStrategy = require("passport-local")
 const passportLocalMongoose = require("passport-local-mongoose")
-const MongoStore = require('connect-mongo');
-const MongoClient = require("mongodb").MongoClient;
+//const MongoStore = require('connect-mongo');
+//const MongoClient = require("mongodb").MongoClient;
+var MongoDBStore = require('connect-mongodb-session')(session);
 
 
 const User = require('./Models/user') 
@@ -46,16 +47,39 @@ mongoose.connection.on('connected', () => {
     console.log('mongoose is connected')
 })
 
+// create and connect to mongostore (connect-mongodb-session)
+
+var store = new MongoDBStore(
+  {
+    uri: uri,
+    databaseName: 'zomato1',
+    collection: 'sessions',
+    expires: 14 * 24 * 60 * 60,
+      
+    connectionOptions: {
+        
+       useNewUrlParser: true,
+       useUnifiedTopology: true,
+       serverSelectionTimeoutMS: 10000
+        
+    }
+  },
+    
+  function(error) {
+    console.log('error in creating mongo session')
+});
+
+store.on('error', function(error) {
+  console.log('there is an error in connect-mongodb-session')
+});
+
 
 app.use(session({
     secret: "this is unambigous secret",
     resave: false,
     saveUninitialized: false,
     cookie: { maxAge: 24*60*60*1000 },
-    store   : MongoStore.create({ 
-        client: mongoose.connection.getClient(),
-        ttl: 14 * 24 * 60 * 60
-     })
+    store   : store
     
 }));
 
