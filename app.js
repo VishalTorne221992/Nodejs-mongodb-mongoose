@@ -10,9 +10,9 @@ const mongoose = require('mongoose')
 const passport = require("passport")
 const LocalStrategy = require("passport-local")
 const passportLocalMongoose = require("passport-local-mongoose")
-//const MongoStore = require('connect-mongo')(session);
+const MongoStore = require('connect-mongo')(session);
 //const MongoClient = require("mongodb").MongoClient;
-var MongoDBStore = require('connect-mongodb-session')(session);
+//var MongoDBStore = require('connect-mongodb-session')(session);
 
 
 
@@ -49,18 +49,18 @@ mongoose.connect(uri, options).then(() => {
 
 // create and connect to mongostore (connect-mongodb-session)
 
-var store = new MongoDBStore({
-  uri: uri,
-  collection: 'sessions'
-},
-    function(error){
-    console.log(error,'this is the error')
-});
+// var store = new MongoDBStore({
+//   uri: uri,
+//   collection: 'sessions'
+// },
+//     function(error){
+//     console.log(error,'this is the error')
+// });
 
-// Catch errors
-store.on('error', function(error) {
-  console.log(error,'this is store on error error log');
-});
+// // Catch errors
+// store.on('error', function(error) {
+//   console.log(error,'this is store on error error log');
+// });
 
 
 app.use(session({
@@ -68,7 +68,10 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: { maxAge: 24*60*60*1000 },
-    store: store
+    store: MongoStore.create({ 
+        mongoUrl: uri,
+        ttl: 14 * 24 * 60 * 60
+     })
     
 }));
 
