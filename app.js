@@ -101,6 +101,6 @@ if(process.env.NODE_ENV=="production"){
 
 //listen to a port
 app.listen( process.env.PORT || 5252 , () => {
-    console.log('express app is up and running on port: ', process.env.PORT)
+    console.log('express app is up and running on port log: ', process.env.PORT)
 })
 
