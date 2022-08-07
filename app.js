@@ -29,7 +29,7 @@ app.use(cors({
 
 //connect to mongoDB
 
-const uri = process.env.MONGO_URI || 'mongodb://localhost/zomato';
+const uri = process.env.MONGO_URI;
 
 console.log(uri, "this is the uri")
 console.log('this is hi from GitHub')
@@ -100,7 +100,7 @@ if(process.env.NODE_ENV=="production"){
 }
 
 //listen to a port
-app.listen( process.env.PORT || 5252 , () => {
+app.listen( process.env.PORT , () => {
     console.log('express app is up and running on port log: ', process.env.PORT)
 })
 
