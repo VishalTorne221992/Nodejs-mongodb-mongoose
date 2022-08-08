@@ -317,7 +317,7 @@ export default class Vrestauranthome extends Component {
 
                     <div className="row text-center pt-4">
                         <div className="col-12">
-                            <p className="restaurant-title"> Find the best restaurants, cafe's, and bars </p>
+                            <p className="restaurant-title"> Find the best restaurants AND HEROKU, cafe's, and bars </p>
                         </div>
                     </div>
 
