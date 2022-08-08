@@ -389,25 +389,25 @@ export default class Vrestauranthome extends Component {
                             Not an user ? <button className="btn btn-outline-danger" onClick={(e) => this.handleRegister(e)}> Please create an V! account </button> </div>
 
 
-//                         <div>
-//                             <FacebookLogin
-//                                 appId="1403102836812000"
-//                                 textButton='Continue with Facebook'
-//                                 fields="name,email,picture"
-//                                 //callback={this.facebookLogin()}
-//                                 icon="fa-facebook" />
-//                         </div>
+                         <div>
+                             <FacebookLogin
+                                 appId="1403102836812000"
+                                 textButton='Continue with Facebook'
+                                 fields="name,email,picture"
+                                 //callback={this.facebookLogin()}
+                                 icon="fa-facebook" />
+                         </div>
 
-//                         <div>
-//                             <GoogleLogin
-//                                 clientId="347163203091-r5pqhapbv0acolul6pr1rlev1svviuj7.apps.googleusercontent.com"
-//                                 buttonText="Continue with Google"
-//                                 onSuccess={this.googleLogin()}
-//                                 onFailure={this.googleLogin()}
-//                                 cookiePolicy={'single_host_origin'}
-//                                 icon={true}
-//                             />
-//                         </div>
+                           <div>
+                             <GoogleLogin
+                                 clientId="347163203091-r5pqhapbv0acolul6pr1rlev1svviuj7.apps.googleusercontent.com"
+                                   buttonText="Continue with Google"
+                                 onSuccess={this.googleLogin()}
+                                 onFailure={this.googleLogin()}
+                                 cookiePolicy={'single_host_origin'}
+                                 icon={true}
+                             />
+                         </div>
 
 
 
