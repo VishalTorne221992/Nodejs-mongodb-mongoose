@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import '../Styles/HeaderHome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Link } from 'react-router-dom';
-import FacebookLogin from 'react-facebook-login'
-import GoogleLogin from 'react-google-login'
+//import FacebookLogin from 'react-facebook-login'
+//import GoogleLogin from 'react-google-login'
 import '../Styles/FilterpageStyle.css'
 import '../Styles/RestFilterMobile.css'
 import Modal from 'react-modal'
@@ -127,16 +127,16 @@ export default class Vrestauranthome extends Component {
     }
 
 
-    facebookLogin = (response) => {
-        console.log(response);
-    }
+//     facebookLogin = (response) => {
+//         console.log(response);
+//     }
 
 
 
 
-    googleLogin = () => (response) => {
-        console.log(response);
-    }
+//     googleLogin = () => (response) => {
+//         console.log(response);
+//     }
 
     handleRegister = e => {
         e.preventDefault()
@@ -389,25 +389,25 @@ export default class Vrestauranthome extends Component {
                             Not an user ? <button className="btn btn-outline-danger" onClick={(e) => this.handleRegister(e)}> Please create an V! account </button> </div>
 
 
-                        <div>
-                            <FacebookLogin
-                                appId="1403102836812000"
-                                textButton='Continue with Facebook'
-                                fields="name,email,picture"
-                                //callback={this.facebookLogin()}
-                                icon="fa-facebook" />
-                        </div>
+//                         <div>
+//                             <FacebookLogin
+//                                 appId="1403102836812000"
+//                                 textButton='Continue with Facebook'
+//                                 fields="name,email,picture"
+//                                 //callback={this.facebookLogin()}
+//                                 icon="fa-facebook" />
+//                         </div>
 
-                        <div>
-                            <GoogleLogin
-                                clientId="347163203091-r5pqhapbv0acolul6pr1rlev1svviuj7.apps.googleusercontent.com"
-                                buttonText="Continue with Google"
-                                onSuccess={this.googleLogin()}
-                                onFailure={this.googleLogin()}
-                                cookiePolicy={'single_host_origin'}
-                                icon={true}
-                            />
-                        </div>
+//                         <div>
+//                             <GoogleLogin
+//                                 clientId="347163203091-r5pqhapbv0acolul6pr1rlev1svviuj7.apps.googleusercontent.com"
+//                                 buttonText="Continue with Google"
+//                                 onSuccess={this.googleLogin()}
+//                                 onFailure={this.googleLogin()}
+//                                 cookiePolicy={'single_host_origin'}
+//                                 icon={true}
+//                             />
+//                         </div>
 
 
 
