@@ -1,6 +1,10 @@
 {
   "name": "nodejs-mongodb-mongoose",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.x",
+    "npm": "8.x"
+  },
   "description": "",
   "main": "index.js",
   "proxy":"https://v-restaurant.herokuapp.com/",
