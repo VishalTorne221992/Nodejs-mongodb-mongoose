@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import '../Styles/HeaderHome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Link } from 'react-router-dom';
-//import FacebookLogin from 'react-facebook-login'
-//import GoogleLogin from 'react-google-login'
+import FacebookLogin from 'react-facebook-login'
+import GoogleLogin from 'react-google-login'
 import '../Styles/FilterpageStyle.css'
 import '../Styles/RestFilterMobile.css'
 import Modal from 'react-modal'
@@ -11,8 +11,6 @@ import Login from '../Components/LoginComponent'
 import LogOut from '../Components/LogOutComponent'
 
 import { MenuCartContext } from '../Contexts/MenuCartContext'
-
-
 
 
 Modal.setAppElement('#root')
@@ -58,9 +56,9 @@ export default class Vrestauranthome extends Component {
                 'Origin': '*',
                 'Access-Control-Allow-Headers': '*',
                 'Access-Control-Allow-Origin': '*' 
-              }
+              })
             .then(response => response.json())
-            .then(data => {this.setState({ locations: data.data })})
+            .then(data => this.setState({ locations: data.data }))
 
         const Localuser = localStorage.getItem('user')
 
