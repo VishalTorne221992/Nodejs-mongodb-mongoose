@@ -15,7 +15,7 @@ export default class LogOutComponent extends Component {
     //   if(res.redirected){window.location.href = res.url}
     // })
 
-    fetch('http://localhost:5252/zomato/logout', {
+    fetch('https://v-restaurant.herokuapp.com/zomato/logout', {
       method:'DELETE',
       redirect:'follow'
     }).then(res => {
