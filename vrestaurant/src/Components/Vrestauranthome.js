@@ -56,7 +56,7 @@ export default class Vrestauranthome extends Component {
                 'Origin': '*',
                 'Access-Control-Allow-Headers': '*',
                 'Access-Control-Allow-Origin': '*' 
-              })
+              }})
             .then(response => response.json())
             .then(data => this.setState({ locations: data.data }))
 
