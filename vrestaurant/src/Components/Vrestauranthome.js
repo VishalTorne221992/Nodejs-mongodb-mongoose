@@ -125,16 +125,16 @@ export default class Vrestauranthome extends Component {
     }
 
 
-//     facebookLogin = (response) => {
-//         console.log(response);
-//     }
+     facebookLogin = (response) => {
+         console.log(response);
+     }
 
 
 
 
-//     googleLogin = () => (response) => {
-//         console.log(response);
-//     }
+     googleLogin = () => (response) => {
+         console.log(response);
+     }
 
     handleRegister = e => {
         e.preventDefault()
