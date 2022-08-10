@@ -85,6 +85,8 @@ export default function RestaurantDetails() {
   function handleGuestLogin(e){
        
     e.preventDefault()
+    console.log(user,'this is the user')
+    console.log(LoggedIn,'is logged in ?')
 
        if(!user && !LoggedIn){
           window.alert('Please login to continue')
