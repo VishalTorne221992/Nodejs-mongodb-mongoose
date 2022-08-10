@@ -102,13 +102,13 @@ Router.get("/menu/:name", MenuController.getAllMenuByRestaurantName)
 
 Router.get('/TestPage', (req, res) => {
     console.log(req.isAuthenticated())
-    res.redirect('http://localhost:3000/TestPage')
+    res.redirect('https://v-restaurant.herokuapp.com/TestPage')
 })
 
 function checkAuthenticated(req, res, next){
     
        if(req.isAuthenticated()) {return next()}
-       res.redirect('http://localhost:3000/')
+       res.redirect('https://v-restaurant.herokuapp.com/')
        
         
 
@@ -122,7 +122,7 @@ Router.delete('/logout', function(req, res){
     console.log(req.session)
     console.log(req.sessionID,'this is session Id')
     
-    res.redirect(303,'http://localhost:3000/')
+    res.redirect(303,'https://v-restaurant.herokuapp.com/')
     //res.json({data:'hello deleted'})
 })
 
