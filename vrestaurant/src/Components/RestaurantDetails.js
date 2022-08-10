@@ -88,7 +88,7 @@ export default function RestaurantDetails() {
     console.log(user,'this is the user')
     console.log(LoggedIn,'is logged in ?')
 
-       if(!user && !LoggedIn){
+       if(user === 'Guest' && !LoggedIn){
           window.alert('Please login to continue')
        }
        else{
