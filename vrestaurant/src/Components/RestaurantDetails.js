@@ -87,7 +87,7 @@ export default function RestaurantDetails() {
     e.preventDefault()
 
        if(!user && !LoggedIn){
-          alert('Please login to continue')
+          window.alert('Please login to continue')
        }
        else{
         navigate("/cart", { replace: true });
