@@ -52,10 +52,7 @@ export default class Vrestauranthome extends Component {
         fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET', 
               headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Origin': '*',
-                'Access-Control-Allow-Headers': '*',
-                'Access-Control-Allow-Origin': '*' 
+                'Content-Type': 'application/json'
               }})
             .then(response => response.json())
             .then(data => this.setState({ locations: data.data }))
