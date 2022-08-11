@@ -5,29 +5,35 @@
 .RestaurantDetailImage{
     background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
     background-size: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: gold;
     height: 290px;
-    width: 530px;
+    width: 392px;
     overflow: hidden;
+}
+
+.galleryButton{
+    position: absolute;
+    right: -30px;
+    top: 70px;
 }
 
 .RestaurantName{
     position: absolute;
     left: 10px;
+    top: 435px;
 }
 
 .PlaceOrder{
     position: absolute;
     left: 3px;
-    top: 480px;
+    top: 360px;
 }
 
 .tabs{
     position: absolute;
-    top: 550px;
+    top: 480px;
     left: 20px;
 }
 
@@ -45,6 +51,7 @@
 
 .ulModalMenu{
     padding-left: 8px;
+    list-style-type: none;
 }
 
 .ModalItemName{
@@ -73,7 +80,6 @@
     right: 28px;
     margin-top: -58px;
     padding-left: 20px;
-    
 
 }
 
@@ -141,17 +147,22 @@
     margin-right: 5px;
 }
 
-.clearItems{
-    display: inline-block;
-    position: absolute;
-    left: 14px;
-    top:25px;
-    width: 120px;
-    height: 40px;
-    overflow: hidden;
-    font-size: 10px;
+.modalRestOverlay{
+    background-color: red;
 }
 
+.modalRest{
+   position: absolute;
+   width: 380px;
+   height: 680px;
+   right: 10px;
+   left: 5px;
+   padding: 20px;
+   top: 30px;
+   bottom: 10px;
+   background-color: white;
+   box-shadow: 0 8px 6px 5px rgba(0, 0, 0, 0.16);
+}
 
 }
 
