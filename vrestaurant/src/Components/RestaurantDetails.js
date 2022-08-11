@@ -164,18 +164,7 @@ export default function RestaurantDetails() {
       </div>
 
 
-      <Modal isOpen={IsMenuModalopen} style={{
-        position: 'absolute',
-        width: '900px',
-        height: '700px',
-        right: '100px',
-        left: '220px',
-        padding: '30px',
-        top: '30px',
-        bottom: '10px',
-        backgroundColor: 'white',
-        boxShadow: '0 8px 6px 5px rgba(0, 0, 0, 0.16)'
-      }}>
+      <Modal isOpen={IsMenuModalopen} isOpen={IsMenuModalopen} className='modalRest' overlayClassName='modalRestOverlay'>
 
 
         <button className='btn btn-danger' onClick={() => handleClose()} style={{ float: 'right', width: '50px', height: '50px', fontSize: '25px', overflow: 'hidden', fontWeight: "bolder" }}>  X   </button>
