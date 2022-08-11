@@ -84,7 +84,7 @@ body{
     position: relative;
     width: 275px;
     height: 60px;
-    margin-left: 90px;
+    margin-left: 45px;
     opacity: 90%;
    }
 
@@ -108,9 +108,10 @@ body{
       width: 400px;
       height: 229px;
       margin-top: 15px;
-      margin-left: 30px;
+      margin-left: 0px;
      
    }
+
 
    
 
@@ -167,6 +168,10 @@ body{
   }
 
 
+
+
+
+
   .location-selector-div{
       width:432px; 
       height: 80px;
@@ -214,8 +219,13 @@ body{
   .Search_More{
     position: relative;
     margin-left: 80px;
-    margin-top: 10px;
+    margin-top: 45px;
+    font-size: 10px;
     z-index: 2;
+  }
+
+  .Search_MoreText{
+    font-size: 12px;
   }
   
   .back-img {
@@ -229,7 +239,7 @@ body{
       width: 360px;
       height: 160px;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      margin-left: -2px;
+      margin-left: -44px;
     }
 
     .Quick-Searches{
@@ -250,17 +260,18 @@ body{
     .login{
       position: absolute;
       display: inline-block;
-      font-size: 20px;
+      font-size: 16px;
+      font-weight: bolder;
       color: white;
-      left: 0px;
-      top: 30px;
+      top: 33px;
+      left: 10px;
 
     }
 
     .login2{
       position: absolute;
       display: inline-block;
-      font-size: 20px;
+      font-size: 15px;
       color: white;
       left: -20px;
       top: 5px;
@@ -270,7 +281,7 @@ body{
     }
 
     .createacc{
-      margin-left: 70px;
+      margin-left: 50px;
     }
 }
 
