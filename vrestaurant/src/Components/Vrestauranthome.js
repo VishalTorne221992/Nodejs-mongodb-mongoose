@@ -297,7 +297,7 @@ export default class Vrestauranthome extends Component {
                         <div className="col-5 col-xs-6 col-lg-6 col-md-2 px-2 py-2" >
                             <div className='login' style={{ display: 'inline-block', width: '250px' }}>
 
-                                <div style={{marginLeft:'20px'}} >Welcome !  {this.state.currentUsername}</div>
+                                <div style={{marginLeft:'10px'}} >Welcome !  {this.state.currentUsername}</div>
 
                             </div>
                             {this.context.user === 'Guest' ? <Login handleRegister={this.handleRegister} onClickButton={this.onClickButton} /> : <LogOut />}</div>
@@ -312,7 +312,7 @@ export default class Vrestauranthome extends Component {
 
                     <div className="row text-center pt-4">
                         <div className="col-12">
-                            <p className="restaurant-title"> Find the best restaurants AND HEROKU, cafe's, and bars </p>
+                            <p className="restaurant-title"> Find the best restaurants, cafe's, and bars </p>
                         </div>
                     </div>
 
