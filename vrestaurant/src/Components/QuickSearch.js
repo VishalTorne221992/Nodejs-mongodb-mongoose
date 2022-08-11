@@ -39,7 +39,7 @@ export default class QuickSearch extends Component {
 
             <div className='ContainerQuicksearch'>
 
-                    <Link to='/restaurants/filter/1' > <button className='btn btn-success Search_More' > Search restaurants All over India !!! Click Here !! </button> </Link>
+                    <Link to='/restaurants/filter/1' > <button className='btn btn-success Search_More' > <span className='Search_MoreText'> Search restaurants All over India ! Click Here !!</span> </button> </Link>
                       
                 
                 <div className='transitionImage1'><img className='transitionImage' src={require('../Assets/Images/148-1484366_saturday-october-19-red-right-arrow-png.png')} alt='NoImage' /></div>
