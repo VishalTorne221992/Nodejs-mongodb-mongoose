@@ -332,7 +332,7 @@ export default class Vrestauranthome extends Component {
                             <div className='RestSearchInput'>
 
                                 <input className="icon" type="text" placeholder="  Search for restaurants" onMouseEnter={() => this.setState({ isHovering: true })}
-                                    style={{ paddingLeft: '50px', fontFamily: 'Poppins', opacity: "85%" }} onChange={(e) => this.handleSearchChange(e)} />
+                                    style={{ paddingLeft: '50px', fontFamily: 'Poppins', opacity: "85%", width:"370px" }} onChange={(e) => this.handleSearchChange(e)} />
 
                             </div>
 
@@ -389,7 +389,7 @@ export default class Vrestauranthome extends Component {
                                  appId="1403102836812000"
                                  textButton='Continue with Facebook'
                                  fields="name,email,picture"
-                                 //callback={this.facebookLogin()}
+                                 callback={this.facebookLogin()}
                                  icon="fa-facebook" />
                          </div>
 
