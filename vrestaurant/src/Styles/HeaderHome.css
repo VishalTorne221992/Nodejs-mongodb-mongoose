@@ -98,13 +98,13 @@ body{
 
 .grid-container{
   position: absolute;
-  width:400px;
+  width:300px;
   display: grid;
   grid-template-columns: repeat(2, 100px);
   grid-auto-rows: minmax(10px, auto);
   background-color: red;
   grid-gap:3px;
-  left: -40px;
+  left: -80px;
   top:20px;
 }
 
