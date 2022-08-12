@@ -100,7 +100,7 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 200px);
   grid-auto-rows: minmax(10px, auto);
-
+  background-color: red;
 }
 
 .grid-container > input{
