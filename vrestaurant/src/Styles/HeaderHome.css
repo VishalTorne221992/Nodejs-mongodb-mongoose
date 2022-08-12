@@ -97,7 +97,8 @@ body{
 }
 
 .grid-container{
-  width:700px;
+  position: absolute;
+  width:400px;
   display: grid;
   grid-template-columns: repeat(2, 100px);
   grid-auto-rows: minmax(10px, auto);
@@ -107,7 +108,7 @@ body{
 }
 
 .grid-container > input{
-  width: 10px;
+  width: 50px;
 
 }
 
