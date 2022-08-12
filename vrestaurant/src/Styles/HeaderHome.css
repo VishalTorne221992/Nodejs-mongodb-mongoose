@@ -98,7 +98,7 @@ body{
 
 .grid-container{
   position: absolute;
-  width:370px;
+  width:360px;
   display: grid;
   grid-template-columns: repeat(2, 150px);
   grid-auto-rows: minmax(10px, auto);
@@ -116,7 +116,7 @@ body{
 .grid-item-sub{
   grid-column: 1 / -1;
   margin-top: 2px;
-  margin-left: 20px;
+  margin-left: 55px;
 }
   
   /*  Dropdown css for small mobile*/
