@@ -100,7 +100,7 @@ body{
 .grid-container{
   margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  grid-template-columns: repeat(2, 170px);
   grid-auto-rows: minmax(10px, auto);
 
 }
