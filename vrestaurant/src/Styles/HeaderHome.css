@@ -78,7 +78,7 @@ body{
 
 .registermodal{
     position: absolute;
-    width: 390px;
+    width: 410px;
     height: 500px;
     top: 200px;
     left: 4px;
@@ -100,8 +100,8 @@ body{
 .grid-container{
   margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 100px);
-  grid-auto-rows: minmax(2px, auto);
+  grid-template-columns: repeat(2, 50px);
+  grid-auto-rows: minmax(10px, auto);
 
 }
 
