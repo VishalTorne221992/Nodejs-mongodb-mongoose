@@ -153,8 +153,8 @@
 
 .modalRest{
    position: absolute;
-   width: 380px;
-   height: 680px;
+   width: max-content;
+   height: max-content;
    right: 10px;
    left: 5px;
    padding: 20px;
