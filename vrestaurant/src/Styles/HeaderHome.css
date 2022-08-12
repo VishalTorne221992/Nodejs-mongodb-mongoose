@@ -104,7 +104,8 @@ body{
   grid-auto-rows: minmax(10px, auto);
   background-color: red;
   grid-gap:3px;
-  margin-left: -40px;
+  left: -40px;
+  top:20px;
 }
 
 .grid-container > input{
