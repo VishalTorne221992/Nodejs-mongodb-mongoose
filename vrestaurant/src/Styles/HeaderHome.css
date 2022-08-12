@@ -81,7 +81,7 @@ body{
     width: 390px;
     height: 500px;
     top: 200px;
-    left: 1px;
+    left: 4px;
     right: 40px;
     bottom: 40px;
     padding-top: 5px;
@@ -98,9 +98,9 @@ body{
 }
 
 .grid-container{
-  margin: 5px;
+  margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  grid-template-columns: repeat(2, 120px);
   grid-auto-rows: minmax(10px, auto);
 
 }
@@ -114,7 +114,7 @@ body{
   grid-column: 1 / -1;
   width: 420px;
   margin-top: 10px;
-  margin-left: 60px;
+  margin-left: 10px;
 }
   
   /*  Dropdown css for small mobile*/
