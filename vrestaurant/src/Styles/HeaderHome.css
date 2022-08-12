@@ -102,6 +102,7 @@ body{
   grid-template-columns: repeat(2, 100px);
   grid-auto-rows: minmax(10px, auto);
   background-color: red;
+  margin-left: -40px;
 }
 
 .grid-container > input{
