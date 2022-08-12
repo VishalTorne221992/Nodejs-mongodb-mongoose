@@ -412,7 +412,7 @@ export default class Vrestauranthome extends Component {
 
                 </Modal>
 
-                <Modal isOpen={this.state.registerOpen} style={this.RegisterModalStyle}>
+                <Modal isOpen={this.state.registerOpen} className='registermodal' overlayClassName='registermodaloverlay'>
 
                     <form method='POST' id='userregisterForm'>
 
@@ -420,18 +420,18 @@ export default class Vrestauranthome extends Component {
 
 
                             <label> Name : </label>
-                            <input type={'text'} id='username' name='username' onChange={(e) => this.setState({ username: e.target.value })} style={{ width: '250px' }} required></input>
+                            <input type={'text'} id='username' name='username' onChange={(e) => this.setState({ username: e.target.value })} required></input>
 
 
                             <label> password : </label>
-                            <input type={'password'} id='password' name='password' onChange={(e) => this.setState({ userPassword: e.target.value })} style={{ width: '250px' }} required></input>
+                            <input type={'password'} id='password' name='password' onChange={(e) => this.setState({ userPassword: e.target.value })}  required></input>
 
 
                             <label> Email : </label>
-                            <input type={'email'} id='useremail' name='useremail' onChange={(e) => this.setState({ useremail: e.target.value })} style={{ width: '250px' }} required></input>
+                            <input type={'email'} id='useremail' name='useremail' onChange={(e) => this.setState({ useremail: e.target.value })} required></input>
 
                             <label> Address : </label>
-                            <input type={'text'} id='userAddress' name='userAddress' onChange={(e) => this.setState({ userAddress: e.target.value })} style={{ width: '250px' }} required></input>
+                            <input type={'text'} id='userAddress' name='userAddress' onChange={(e) => this.setState({ userAddress: e.target.value })} required></input>
 
 
                             <label hidden> Submit : </label>
