@@ -102,6 +102,7 @@ body{
   grid-template-columns: repeat(2, 100px);
   grid-auto-rows: minmax(10px, auto);
   background-color: red;
+  grid-gap:3px;
   margin-left: -40px;
 }
 
