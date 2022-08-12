@@ -69,7 +69,53 @@ body{
 
 
 
-@media screen and (max-width:600px) {   
+@media screen and (max-width:600px) { 
+  
+  /* ------------------------------------------------ */
+/* RegisterPage Css */
+/* ------------------------------------------------ */
+
+
+.registermodal{
+  position: absolute;
+  width: 390px;
+  height: 300px;
+    top: 200px;
+    left: 1px;
+    right: 40px;
+    bottom: 40px;
+    padding-top: 15px;
+    background-color: papayawhip;
+}
+
+.registermodaloverlay{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(136, 136, 136, 0.65)
+}
+
+.grid-container{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 155px);
+  grid-auto-rows: minmax(10px, auto);
+
+}
+
+.grid-container > input{
+  width: 210px;
+
+}
+
+.grid-item-sub{
+  grid-column: 1 / -1;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
   
   /*  Dropdown css for small mobile*/
   .RestSearch{
@@ -221,7 +267,7 @@ body{
     margin-left: 80px;
     margin-top: 45px;
     font-size: 10px;
-    z-index: 2;
+    
   }
 
   .Search_MoreText{
@@ -286,6 +332,44 @@ body{
 }
 
 @media screen and (min-width:600px) {
+  
+  /* ------------------------------------------------ */
+/* RegisterPage Css */
+/* ------------------------------------------------ */
+
+
+.registermodal{
+  position: absolute;
+  width: 600px;
+  height: 500px;
+    top: 90px;
+    left: 600px;
+    right: 40px;
+    bottom: 40px;
+    padding: 50px;
+    background-color: papayawhip;
+}
+
+.registermodaloverlay{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(136, 136, 136, 0.65)
+}
+
+.grid-container{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.grid-item-sub{
+  grid-column: 1 / -1;
+  width: 420px;
+}
  
   /*  Search Dropdown css for large*/
 
