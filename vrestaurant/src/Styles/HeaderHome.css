@@ -77,9 +77,9 @@ body{
 
 
 .registermodal{
-  position: absolute;
-  width: 390px;
-  height: 500px;
+    position: absolute;
+    width: 390px;
+    height: 500px;
     top: 200px;
     left: 1px;
     right: 40px;
@@ -89,7 +89,7 @@ body{
 }
 
 .registermodaloverlay{
-  position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
