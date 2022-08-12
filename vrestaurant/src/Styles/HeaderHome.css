@@ -84,7 +84,6 @@ body{
     left: 4px;
     right: 40px;
     bottom: 40px;
-    padding-top: 5px;
     background-color: papayawhip;
 }
 
@@ -98,23 +97,22 @@ body{
 }
 
 .grid-container{
-  margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 70px);
+  grid-template-columns: repeat(2, 200px);
   grid-auto-rows: minmax(10px, auto);
 
 }
 
 .grid-container > input{
-  width: 160px;
+  width: 170px;
 
 }
 
 .grid-item-sub{
   grid-column: 1 / -1;
   width: 420px;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 2px;
+  margin-left: 2px;
 }
   
   /*  Dropdown css for small mobile*/
