@@ -98,7 +98,7 @@ body{
 
 .grid-container{
   position: absolute;
-  width:450px;
+  width:410px;
   display: grid;
   grid-template-columns: repeat(2, 150px);
   grid-auto-rows: minmax(10px, auto);
