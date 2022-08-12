@@ -100,13 +100,13 @@ body{
 .grid-container{
   margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 50px);
+  grid-template-columns: repeat(2, 150px);
   grid-auto-rows: minmax(10px, auto);
 
 }
 
 .grid-container > input{
-  width: 100px;
+  width: 160px;
 
 }
 
