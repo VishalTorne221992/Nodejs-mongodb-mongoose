@@ -100,21 +100,21 @@ body{
 .grid-container{
   margin: 1px;
   display: grid;
-  grid-template-columns: repeat(2, 120px);
-  grid-auto-rows: minmax(10px, auto);
+  grid-template-columns: repeat(2, 100px);
+  grid-auto-rows: minmax(2px, auto);
 
 }
 
 .grid-container > input{
-  width: 210px;
+  width: 100px;
 
 }
 
 .grid-item-sub{
   grid-column: 1 / -1;
   width: 420px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
   
   /*  Dropdown css for small mobile*/
