@@ -19,11 +19,11 @@
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
         background-color: white;
         top:160px;
-        left: 8px;
+        left: 6px;
     }
 
     .Filters{
-        left:12px;
+        left:5px;
     }
     
 
@@ -41,7 +41,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #192f60;
-        left: 12px;
+        left: 5px;
         top: 52px;
         
       }
@@ -53,11 +53,11 @@
         border-radius: 3px;
         border: solid 1px #bec8dd;
         top:95px;
-        left: 12px;
+        left: 5px;
       }
 
       #Select_Location_box{
-        padding-left: 15px;
+        padding-left: 5px;
         width: 130px;
         height: 35px;
         font-family: Poppins;
@@ -76,7 +76,7 @@
         position: absolute;
         width: 100px;
         height: 50px;
-        left: 12px;
+        left: 5px;
         top:143px;
         
     }
@@ -120,7 +120,7 @@
         position: absolute;
         width: 180px;
         height: 170px;
-        left: 12px;
+        left: 1px;
         top: 330px;
        
     }
@@ -205,7 +205,7 @@
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
         background-color: white;
         margin-top: 90px;   
-        margin-left: 176px; 
+        margin-left: 155px; 
  
     }
 
