@@ -25,7 +25,12 @@ export default function Cart() {
         
         navigate("/")
   }
+  
+  window.onbeforeunload = () => {
 
+    navigate(`/RestaurantDetails/${RestaurantName}`, { replace: false})
+
+  }
 
 
   const newCartTotal = cartItems.reduce((newTotal, item) => {
