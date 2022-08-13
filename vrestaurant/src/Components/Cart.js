@@ -28,7 +28,7 @@ export default function Cart() {
   
   window.onbeforeunload = () => {
 
-    navigate(`/RestaurantDetails/${RestaurantName}`, { replace: false})
+    navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})
 
   }
 
