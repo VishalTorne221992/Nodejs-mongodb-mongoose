@@ -26,6 +26,9 @@
     position: absolute;
     left: 3px;
     top: 420px;
+    margin:17px;
+    float:right;
+    background-color: #ce0505;
 }
 
 .tabs{
@@ -165,6 +168,12 @@
 
 
 @media screen and (min-width:600px){
+    
+.PlaceOrder{
+    margin:17px;
+    float:right;
+    background-color: #ce0505;
+}
 
 .MenuButtonModal{
     position: absolute;
