@@ -5,17 +5,14 @@
 .RestaurantDetailImage{
     background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
     background-size: 100%;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 290px;
-    width: 392px;
+    height: 200px;
+    width: 300px;
     overflow: hidden;
 }
 
 .galleryButton{
     position: absolute;
-    right: -30px;
+    right: 20px;
     top: 70px;
 }
 
@@ -28,18 +25,18 @@
 .PlaceOrder{
     position: absolute;
     left: 3px;
-    top: 360px;
+    top: 420px;
 }
 
 .tabs{
     position: absolute;
-    top: 480px;
+    top: 520px;
     left: 20px;
 }
 
 .tabs__content{
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 10px;
 }
 
