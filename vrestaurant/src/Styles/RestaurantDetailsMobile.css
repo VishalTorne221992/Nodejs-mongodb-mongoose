@@ -5,15 +5,16 @@
 .RestaurantDetailImage{
     background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
     background-size: 100%;
-    height: 200px;
-    width: 300px;
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
     overflow: hidden;
 }
 
 .galleryButton{
     position: absolute;
-    right: 20px;
-    top: 70px;
+    right: 0px;
+    top: 90px;
 }
 
 .RestaurantName{
