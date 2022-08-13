@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/CartPagecss.css'
+import '../Styles/RestaurantDetailsMobile.css'
 
 export default function CartItems({ item }) {
 
