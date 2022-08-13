@@ -7,6 +7,7 @@
     background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
     background-size: 100%;
     top: 50px;
+    left:-30px;
     height: 300px;
     width: 400px;
     overflow: hidden;
