@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect, useRef } from 'react';
 import { MenuCartContext } from '../Contexts/MenuCartContext'
 import CartItems from '../Components/CartItems';
-import '../Styles/CartPagecss.css'
+import '../Styles/RestaurantDetailsMobile.css'
 import Modal from 'react-modal';
 import 'bootstrap/dist/css/bootstrap.css'
 import html2canvas from 'html2canvas';
