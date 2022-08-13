@@ -186,7 +186,7 @@ export default function Cart() {
   return (
 
     <div >
-      <Modal isOpen={isCartMOdalOpen} style={customStyles}>
+      <Modal isOpen={isCartMOdalOpen} className='modalCart' overlayClassName='modalCartOverlay'>
 
         <div >
           <div className='CartPage' >
@@ -199,7 +199,7 @@ export default function Cart() {
               {
                 cartItems.map((item) => {
 
-                  return <div key={item._id} className='grid-item gridItemsCart' style={{ backgroundColor: 'beige', color: 'black' }}><CartItems item={item} key={item._id} cartTotal={cartTotal} /> </div>
+                  return <div key={item._id} className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} cartTotal={cartTotal} /> </div>
 
                 })
               }
@@ -207,16 +207,16 @@ export default function Cart() {
 
             </div>
 
-            <h2 style={{ fontWeight: 'bolder', overflow: 'hidden', marginBottom:'-10px', marginTop:'-30px', marginLeft:'20px'}}>Cart Total : {newCartTotal}</h2>
+            <h2 className='modalCartCartTotal'>Cart Total : {newCartTotal}</h2>
 
 
-            <div id='paynow' className='btn btn-danger' onClick={() => {setisCartMOdalOpen(false); setisUserdetailsModalOpen(true)}} style={{ fontWeight: 'bolder', fontSize: '30px', marginBottom: '30px', marginTop: '30px', width: "500px", marginLeft: '170px' }}> Click to Pay {newCartTotal} </div>
+            <div id='paynow' className='btn btn-danger modalCartPaynow' onClick={() => {setisCartMOdalOpen(false); setisUserdetailsModalOpen(true)}} > <span className='modalCartPaynowspan'> Click to Pay {newCartTotal} </span> </div>
 
 
 
-            <div id='printdetails' className='btn btn-dark' style={{ fontWeight: 'bolder', fontSize: '20px', marginLeft: '550px', width: '200px', marginTop:'-390px' }} onClick={() => jsPdfGenerator()}> Print Details </div>
+            <div id='printdetails' className='btn btn-dark modalCartPDFgen' onClick={() => jsPdfGenerator()}> <span className='modalCartPrintdetailstext'> Print Details </span> </div>
 
-            <div className='btn btn-success' onClick={() => navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})} style={{display:'inline-block', float:'left', position:'absolute', left:'675px', top:'30px'}}> Go Back </div>
+            <div className='btn btn-success modalCartGoBackbtn' onClick={() => navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})}> Go Back </div>
 
 
           </div>
