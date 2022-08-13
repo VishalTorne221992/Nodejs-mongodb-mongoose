@@ -12,19 +12,19 @@ export default function CartItems({ item }) {
 
 
 
-      <span style={{ marginLeft: '70px', width: '200px', display: 'inline-block' }}> {itemName} </span>
+      <span className='modalCartItemName'> {itemName} </span>
 
-      <div style={{ float: 'right', color: 'white', fontFamily: 'Calibri', marginRight: '80px' }}>
+      <div className='modalCartItemsDetails'>
 
-        <span style={{ backgroundColor: 'rgb(13, 2, 63)', width: '40px', display: 'inline-block', textAlign: 'center' }}> {itemPrice} </span>
+        <span className='CartdetailsMainPricemenuitemscart'> {itemPrice} </span>
 
-        <span style={{ backgroundColor: 'darkblue', width: '40px', display: 'inline-block', textAlign: 'center' }}> X </span>
+        <span className='Cartdetailsmenuitemscart'> X </span>
 
-        <span style={{ backgroundColor: 'darkblue', width: '40px', display: 'inline-block', textAlign: 'center' }}> {quantity} </span>
+        <span className='Cartdetailsmenuitemscart'> {quantity} </span>
 
-        <span style={{ backgroundColor: 'darkblue', width: '40px', display: 'inline-block', textAlign: 'center' }}> = </span>
+        <span className='Cartdetailsmenuitemscart'> = </span>
 
-        <span style={{ backgroundColor: 'darkblue', width: '90px', display: 'inline-block', textAlign: 'center' }}>{itemTotalPrice}</span>
+        <span className='CartdetailsTOTmenuitemscart'>{itemTotalPrice}</span>
 
       </div>
 
