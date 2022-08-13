@@ -127,7 +127,7 @@ export default function RestaurantDetails() {
         <div className='RestaurantName' style={{ marginLeft: "8px" }}>{RestaurantName}</div>
 
         <div>
-          <button className='btn btn-danger PlaceOrder' onClick={() => setIsMenuModalopen(true)} style={{ margin: "17px", backgroundColor: '#ce0505', float: 'right' }}> Place Online Order </button>
+          <button className='btn btn-danger PlaceOrder' onClick={() => setIsMenuModalopen(true)}> Place Online Order </button>
         </div>
 
         <div className="tabs">
