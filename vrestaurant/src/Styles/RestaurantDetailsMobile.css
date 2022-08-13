@@ -1,6 +1,129 @@
 @media screen and (max-width:600px){
 
+/* Modal for Cart details view (mobile screen)*/
 
+.modalCart{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+    padding-top: 10px;
+    width: 280px;
+    height: 600px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    padding-left: 0px;
+}
+
+
+
+
+.grid-container{
+    display: grid;    
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 10px;
+    width: 250px;
+    background-color: white;    
+}
+
+.grid-header1{
+     grid-column-start: 1;
+     grid-column-end: 4;
+     background-color: aqua;
+        
+}
+
+.gridItemsCart{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: beige;
+    margin-top: 10px;
+    
+
+}
+
+.modalCartCartTotal{
+    font-weight: bolder;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 34px;
+}
+
+.modalCartPaynow{
+    
+    margin-bottom: 70px;
+    margin-top: -1px;
+    width: 150px;
+    margin-left: 56px;
+}
+
+.modalCartPaynowspan{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.modalCartPDFgen{
+    position: absolute;
+    right: 95px;
+    top: 620px;
+    width: 110px;
+    margin-top: -200px;
+}
+
+.modalCartPrintdetailstext{
+
+    font-weight: bolder;
+    font-size: 13px;
+
+}
+
+.modalCartGoBackbtn{
+    position: absolute;
+    display: inline-block;
+    left: 83px;
+    top: 480px;
+    font-size: 10px;
+}
+
+
+.modalCartItemName{
+    margin-left: 1px;
+    width: 120px;
+    display: inline-block;
+}
+
+.modalCartItemsDetails{
+    float: right;
+    color: white;
+    font-family: Calibri;
+    margin-right: 4px;
+}
+
+.CartdetailsMainPricemenuitemscart{
+    background-color: rgb(13, 2, 63);
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.Cartdetailsmenuitemscart{
+    background-color: darkblue;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.CartdetailsTOTmenuitemscart{
+    background-color: darkblue;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
 
 .RestaurantDetailImage{
     position: absolute;
@@ -172,6 +295,134 @@
 
 
 @media screen and (min-width:600px){
+    
+/* Modal for Cart details view (Large screen)*/
+
+.modalCart{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 280px;
+    padding-top: 10px;
+    width: max-content;
+    height: max-content;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    padding-left: 0px;
+}
+
+.modalCartOverlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(136, 136, 136, 0.14);
+}
+
+
+.grid-container{
+    display: grid;    
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 50px;
+        
+}
+
+.grid-header{
+     grid-column-start: 1;
+     grid-column-end: 4;
+        
+}
+
+.gridItemsCart{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: beige;
+    color: black;
+
+}
+
+.modalCartCartTotal{
+    font-weight: bolder;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.modalCartPaynow{
+    
+    margin-bottom: 70px;
+    margin-top: -1px;
+    width: 500px;
+    margin-left: 160px;
+}
+
+.modalCartPaynowspan{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.modalCartPDFgen{
+    position: absolute;
+    right: 50px;
+    top: 560px;
+    width: 200px;
+    margin-top: -200px;
+}
+
+.modalCartPrintdetailstext{
+
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.modalCartGoBackbtn{
+    position: absolute;
+    display: inline-block;
+    left: 375px;
+    top: 500px;
+}
+
+
+.modalCartItemName{
+    margin-left: 70px;
+    width: 200px;
+    display: inline-block;
+}
+
+.modalCartItemsDetails{
+    float: right;
+    color: white;
+    font-family: Calibri;
+    margin-right: 80px;
+}
+
+.CartdetailsMainPricemenuitemscart{
+    background-color: rgb(13, 2, 63);
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.Cartdetailsmenuitemscart{
+    background-color: darkblue;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.CartdetailsTOTmenuitemscart{
+    background-color: darkblue;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}    
     
 .PlaceOrder{
     margin:17px;
