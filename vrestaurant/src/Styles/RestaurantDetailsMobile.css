@@ -1,4 +1,4 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:450px){
 
 /* Modal for Cart details view (mobile screen)*/
 
@@ -9,8 +9,8 @@
     right: 0;
     left: 20px;
     padding-top: 10px;
-    width: 280px;
-    height: 600px;
+    width: 480px;
+    height: 700px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
     overflow: hidden;
     padding-left: 0px;
