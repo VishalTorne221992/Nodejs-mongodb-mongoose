@@ -30,7 +30,7 @@
     display: grid;    
     font-size: 20px;
     font-weight: bolder;
-    width: 405px;
+    width: 93vw;
     background-color: white;    
     grid-auto-rows: minmax(10px,auto);
     grid-template-columns: repeat(2,150px);
