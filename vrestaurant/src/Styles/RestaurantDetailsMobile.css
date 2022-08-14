@@ -28,11 +28,13 @@
 
 .grid-container{
     display: grid;    
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bolder;
-    margin-left: 75px;
     width: 375px;
     background-color: white;    
+    grid-auto-rows: minmax(10px,auto);
+    grid-template-columns: repeat(2,150px);
+    margin: 68px;
 }
 
 .grid-header1{
@@ -55,8 +57,8 @@
     font-weight: bolder;
     overflow: hidden;
     padding-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 34px;
+    margin-top: 440px;
+    margin-left: 74px;
 }
 
 .modalCartPaynow{
@@ -64,7 +66,7 @@
     margin-bottom: 70px;
     margin-top: -1px;
     width: 150px;
-    margin-left: 56px;
+    margin-left: 90px;
 }
 
 .modalCartPaynowspan{
@@ -74,8 +76,8 @@
 
 .modalCartPDFgen{
     position: absolute;
-    right: 95px;
-    top: 520px;
+    right: 55px;
+    top: 578px;
     width: 110px;
     margin-top: -200px;
 }
@@ -88,17 +90,15 @@
 }
 
 .modalCartGoBackbtn{
-    position: absolute;
-    display: inline-block;
-    left: 83px;
-    top: 680px;
+    left: 3px;
+    top: 5px;
     font-size: 10px;
 }
 
 
 .modalCartItemName{
-    margin-left: 1px;
-    width: 120px;
+    margin-left: 5px;
+    width: 140px;
     display: inline-block;
 }
 
@@ -106,12 +106,12 @@
     float: right;
     color: white;
     font-family: Calibri;
-    margin-right: 4px;
+    margin-right: 20px;
 }
 
 .CartdetailsMainPricemenuitemscart{
     background-color: rgb(13, 2, 63);
-    width: 20px;
+    width: 40px;
     display: inline-block;
     text-align: center;
 
@@ -119,14 +119,14 @@
 
 .Cartdetailsmenuitemscart{
     background-color: darkblue;
-    width: 20px;
+    width: 40px;
     display: inline-block;
     text-align: center;
 }
 
 .CartdetailsTOTmenuitemscart{
     background-color: darkblue;
-    width: 10px;
+    width: 40px;
     display: inline-block;
     text-align: center;
 }
