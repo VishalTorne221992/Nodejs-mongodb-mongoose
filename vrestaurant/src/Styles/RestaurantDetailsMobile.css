@@ -7,10 +7,10 @@
     top: 30px;
     bottom: 0;
     right: 0;
-    left: 20px;
+    left: 10px;
     padding-top: 10px;
-    width: 400px;
-    height: 600px;
+    width: 430px;
+    height: fit-content;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
     overflow: hidden;
     padding-left: 0px;
@@ -28,13 +28,14 @@
 
 .grid-container{
     display: grid;    
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bolder;
-    width: 375px;
+    width: 405px;
     background-color: white;    
     grid-auto-rows: minmax(10px,auto);
     grid-template-columns: repeat(2,150px);
-    margin: 68px;
+    margin-top: 60px;
+    margin-left: 60px;
 }
 
 .grid-header1{
@@ -57,7 +58,7 @@
     font-weight: bolder;
     overflow: hidden;
     padding-bottom: 10px;
-    margin-top: 440px;
+    margin-top: 520px;
     margin-left: 74px;
 }
 
@@ -77,7 +78,7 @@
 .modalCartPDFgen{
     position: absolute;
     right: 55px;
-    top: 578px;
+    top: 658px;
     width: 110px;
     margin-top: -200px;
 }
@@ -90,23 +91,25 @@
 }
 
 .modalCartGoBackbtn{
-    left: 3px;
-    top: 5px;
-    font-size: 10px;
+    left: 90px;
+    top: 630px;
+    position: absolute;
+    width: 150px;
 }
 
 
 .modalCartItemName{
     margin-left: 5px;
-    width: 140px;
+    width: 160px;
     display: inline-block;
+    font-size: 18px;
 }
 
 .modalCartItemsDetails{
     float: right;
     color: white;
     font-family: Calibri;
-    margin-right: 20px;
+    margin-right: 2px;
 }
 
 .CartdetailsMainPricemenuitemscart{
