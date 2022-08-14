@@ -34,9 +34,7 @@
     background-color: white;    
     grid-auto-rows: minmax(10px,auto);
     grid-template-columns: repeat(2,150px);
-    margin-top: 20px;
     margin-left: 8px;
-    position: fixed;
 }
 
 .grid-header{
