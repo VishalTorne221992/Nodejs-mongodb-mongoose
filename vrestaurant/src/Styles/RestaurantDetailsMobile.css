@@ -9,7 +9,7 @@
     right: 0;
     left: 20px;
     padding-top: 10px;
-    width: 500px;
+    width: 400px;
     height: 600px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
     overflow: hidden;
@@ -31,7 +31,7 @@
     font-size: 12px;
     font-weight: bolder;
     margin-left: 10px;
-    width: max-content;
+    width: 300px;
     background-color: white;    
 }
 
