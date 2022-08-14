@@ -277,7 +277,7 @@ export default function Cart() {
           <h2 style={{ fontWeight: 'bolder', marginTop: '30px', overflow: 'hidden' }}>Cart Total : {newCartTotal}</h2>
 
 
-          <div id='paynow' className='btn btn-danger' style={{ fontWeight: 'bolder', fontSize: '30px', marginBottom: '30px', marginTop: '30px', width: "450px", marginLeft: '160px' }}> Total Amount: {newCartTotal} </div>
+          <div id='paynow' className='btn btn-danger' style={{ fontWeight: 'bolder', fontSize: '18px', marginBottom: '30px', marginTop: '30px', width: "50px", marginLeft: '160px' }}> Total Amount: {newCartTotal} </div>
 
         </div>
 
