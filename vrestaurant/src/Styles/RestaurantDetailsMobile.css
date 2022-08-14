@@ -39,7 +39,7 @@
     position: fixed;
 }
 
-.grid-header1{
+.grid-header{
      grid-column-start: 1;
      grid-column-end: 4;
      background-color: aqua;
