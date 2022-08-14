@@ -251,17 +251,17 @@ export default function Cart() {
 
                 return <div key={item._id} className='grid-item gridItemsCart' style={{ backgroundColor: 'beige', color: 'black' }}>
 
-                  <span style={{ marginLeft: '70px', width: '200px', display: 'inline-block' }}> {item.itemName} </span>
+                  <span className='modalCartItemName'> {item.itemName} </span>
 
-                  <span style={{ width: '40px', display: 'inline-block', textAlign: 'center', marginLeft: '100px' }}> {item.itemPrice} </span>
+                  <span className='CartdetailsMainPricemenuitemscart'> {item.itemPrice} </span>
 
-                  <span style={{ width: '40px', display: 'inline-block', textAlign: 'center' }}> X </span>
+                  <span className='Cartdetailsmenuitemscart'> X </span>
 
-                  <span style={{ width: '40px', display: 'inline-block', textAlign: 'center' }}> {item.quantity} </span>
+                  <span className='Cartdetailsmenuitemscart'> {item.quantity} </span>
 
-                  <span style={{ width: '40px', display: 'inline-block', textAlign: 'center' }}> = </span>
+                  <span className='Cartdetailsmenuitemscart'> = </span>
 
-                  <span style={{ width: '90px', display: 'inline-block', textAlign: 'center' }}>{item.itemTotalPrice}</span>
+                  <span className='CartdetailsTOTmenuitemscart'>{item.itemTotalPrice}</span>
 
 
 
