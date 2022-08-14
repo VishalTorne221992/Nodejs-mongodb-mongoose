@@ -416,7 +416,7 @@ export default class Vrestauranthome extends Component {
 
                     <form method='POST' id='userregisterForm'>
 
-                        <div className='grid-container'>
+                        <div className='grid-container-register'>
 
 
                             <label> Name : </label>
