@@ -47,13 +47,13 @@ export default class QuickSearch extends Component {
                      <b>Quick Searches</b>
                 </div>
 
-                <div className="Discover-restaurants-by-type-of-meal" style={{ paddingLeft: '96px' }}>
+                <div className="Discover-restaurants-by-type-of-meal">
                     Discover restaurants by type of meal
                 </div>
 
 
 
-                <div className="row pt-4 py-4 qs_menu2" style={{ paddingLeft: '60px', paddingRight: '60px', paddingBottom: '50px' }}>
+                <div className="row pt-4 py-4 qs_menu2">
 
 
                     {quickSearchList}
