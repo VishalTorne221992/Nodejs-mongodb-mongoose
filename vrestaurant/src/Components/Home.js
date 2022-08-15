@@ -6,5 +6,5 @@ import QuickSearch from './QuickSearch'
 
 export default function Home() {
 
-  return <div><React.Fragment><RestaurantHome/> <QuickSearch/> </React.Fragment></div>;
+  return <div style={{ width:'100vw', position:'fixed'}}><React.Fragment><RestaurantHome/> <QuickSearch/> </React.Fragment></div>;
 }
