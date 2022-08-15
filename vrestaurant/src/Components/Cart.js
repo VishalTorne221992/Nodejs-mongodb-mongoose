@@ -189,7 +189,7 @@ export default function Cart() {
 
   return (
 
-    <div >
+    <div style={{overflow:'hidden'}}>
       <Modal isOpen={isCartMOdalOpen} className='modalCart' overlayClassName='modalCartOverlay'>
 
         <div >
