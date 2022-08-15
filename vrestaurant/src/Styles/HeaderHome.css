@@ -75,6 +75,17 @@ body{
 /* RegisterPage Css */
 /* ------------------------------------------------ */
 
+.ContainerHome{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+
+.ContainerQuicksearch{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
 
 .registermodal{
     position: absolute;
