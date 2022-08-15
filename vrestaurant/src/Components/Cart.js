@@ -211,7 +211,7 @@ export default function Cart() {
 
             </div>
 
-            <h2 className='modalCartCartTotal'>Cart Total : {newCartTotal}</h2>
+            <div className='modalCartCartTotal'>Cart Total : {newCartTotal}</div>
 
 
             <div id='paynow' className='btn btn-danger modalCartPaynow' onClick={() => {setisCartMOdalOpen(false); setisUserdetailsModalOpen(true)}} > <span className='modalCartPaynowspan'> Click to Pay {newCartTotal} </span> </div>
