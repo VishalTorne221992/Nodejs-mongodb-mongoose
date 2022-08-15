@@ -35,6 +35,7 @@
     grid-auto-rows: minmax(10px,auto);
     grid-template-columns: repeat(2,150px);
     margin-left: 8px;
+    overflow: hidden;
 }
 
 .grid-header{
