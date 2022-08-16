@@ -154,6 +154,16 @@
     position: absolute;
     right: 0px;
     top: 90px;
+    color: rgb(7, 7, 80);
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    opacity: 75%;
+    font-weight: bolder;
+  
 }
 
 .RestaurantName{
@@ -563,6 +573,21 @@
     position: absolute;
     left: 965px;
     top:90px;
+}
+    
+.galleryButton{
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    color: rgb(7, 7, 80);
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-top: 210px;
+    width: 250px;
+    height: 60px;
+    opacity: 75%;
+    font-weight: bolder;
 }
     
 }
