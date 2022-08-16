@@ -5,171 +5,19 @@
 
 body{
   background-color: white;
-}
-
-
-
-.back-img{
-  background-image: url('../Assets/Images/shutterstock_348320018@3x.jpg');
-  height: 480px;
-  background-size: cover;
-}
-
-.login, .createacc, .login:hover, .createacc:hover{
-  color: white;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-.logo{
-  display: inline;
-  color: #eb2929;
-  border-radius: 50%;
-  font-size: 70px;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.9;
-  letter-spacing: normal;
-  background-color: white;
-}
-
-.restaurant-title{
-  font-size: 36px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.53;
-  letter-spacing: normal;
-  color: #fff;
-}
-
-
-.locationDropdown{
-  appearance: none;
-  border: none;
-  font-family: Poppins;
-  color: #1f3d75;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.53;
-  letter-spacing: normal;
-  background-color: #fff;
-}
-
-
-::placeholder {
-  color: #1f3d75;
-  opacity: 1;
-}
-
-
-
-@media screen and (max-width:450px) { 
   
-.qs_menu2{
-  max-width: 100%;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 50px;
-}
   
-  /* ------------------------------------------------ */
-/* RegisterPage Css */
-/* ------------------------------------------------ */
-
-
-
-.registermodal{
-    position: absolute;
-    width: 410px;
-    height: 500px;
-    top: 200px;
-    left: 4px;
-    right: 40px;
-    bottom: 40px;
-    background-color: papayawhip;
 }
 
-.registermodaloverlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(136, 136, 136, 0.65)
-}
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
 
-.grid-container-register{
-  position: absolute;
-  width:360px;
-  display: grid;
-  grid-template-columns: repeat(2, 150px);
-  grid-auto-rows: minmax(10px, auto);
-  background-color: white;
-  grid-gap:3px;
-  left: -55px;
-  top:20px;
-}
+@media screen and (max-width:450px) {
 
-.grid-container > input{
-  width: 200px;
-
-}
-
-.grid-item-sub{
-  grid-column: 1 / -1;
-  margin-top: 2px;
-  margin-left: 55px;
-}
-  
-  /*  Dropdown css for small mobile*/
-  .RestSearch{
-    
-    max-width: 100%;
-    height: 168px;
-    padding-top: 20px;
-    margin-top: -20px;
-   }
-
-   .RestSearchDropDown{
-    position: relative;
-    width: 275px;
-    height: 60px;
-    margin-left: 45px;
-    opacity: 90%;
-   }
-
-   .RestlocationDropdown{
-    position: relative;
-    width: 275px;
-    height: 60px;
-    padding-left: 40px;
-    appearance: none;
-    border: none;
-    font-family: Poppins;
-    color: #1f3d75;
-    font-size: 15px;
-    font-weight: bolder;
-    
-   }
-
-  /*  SearchBar css for small mobile*/
-   .SearchInputMain{
-      position: relative;
-      width: 400px;
-      height: 229px;
-      margin-top: 15px;
-      margin-left: 0px;
-     
-   }
-
-
-   
-
-   .icon {
+  .icon {
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left 50% ;
     background-size: 20px;
     font-family: Poppins;
@@ -189,11 +37,216 @@ body{
     
   }
 
+  .qs_menu2{
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+  }
+
+  .back-img{
+    background-image: url('../Assets/Images/shutterstock_348320018@3x.jpg');
+    height: 480px;
+    background-size: cover;
+  }
+  
+  .login, .createacc, .login:hover, .createacc:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .logo{
+    display: inline;
+    color: #eb2929;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    background-color: white;
+  }
+  
+  .restaurant-title{
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  
+  
+  .locationDropdown{
+    appearance: none;
+    border: none;
+    font-family: Poppins;
+    color: #1f3d75;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    background-color: #fff;
+  }
+  
+  
+  ::placeholder {
+    color: #1f3d75;
+    opacity: 1;
+  }
+  
+  .Quick-Searches {
+    width: 390px;
+    height: 75px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    color: #192f60;
+  }
+  
+  .Discover-restaurants-by-type-of-meal{
+    width: 430px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #8c96ab;
+    margin-left: -48px;
+  }
+  
+  .qk1_heading{
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;   
+  }
+  
+  .qk1_info{
+    width: 137px;
+    height: 62px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+
+/* ------------------------------------------------ */
+/* RegisterPage Css */
+/* ------------------------------------------------ */
+
+
+.registermodal{
+  position: absolute;
+  width: 390px;
+  height: 300px;
+    top: 200px;
+    left: 1px;
+    right: 40px;
+    bottom: 40px;
+    padding-top: 10px;
+    background-color: papayawhip;
+}
+
+.registermodaloverlay{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(136, 136, 136, 0.65)
+}
+
+.grid-containerRegister{
+  width: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 125px);
+  grid-auto-rows: minmax(10px, auto);
+  background-color: red;
+  
+
+}
+
+.grid-containerRegister > input{
+  width: 210px;
+
+}
+
+.grid-item-sub{
+  grid-column: 1 / -1;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 60px;
+}  
+  
+  /*  Dropdown css for small mobile*/
+  .RestSearch{
+    
+    width: 400px;
+    height: 168px;
+    padding-top: 20px;
+    margin-top: -20px;
+   }
+
+   .RestSearchDropDown{
+    position: relative;
+    width: 210px;
+    height: 60px;
+    margin-left: 75px;
+    opacity: 90%;
+    background-color: red;
+   }
+
+   .RestlocationDropdown{
+    position: relative;
+    height: 60px;
+    padding-left: 10px;
+    appearance: none;
+    border: none;
+    font-family: Poppins;
+    color: #1f3d75;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    max-width: fit-content;
+   }
+
+   .RestlocationDropdown > option{
+     max-width: fit-content;
+   }
+
+
+  /*   SearchBar css for small mobile*/
+   .SearchInputMain{
+      position: relative;
+      width: 370px;
+      height: 229px;
+      margin-top: 15px;
+      margin-left: 20px;
+   }
+
+
+
   .RestSearchDetails{
    
     background-color: white;
 
-    
   }
 
 
@@ -222,10 +275,6 @@ body{
   }
 
 
-
-
-
-
   .location-selector-div{
       width:432px; 
       height: 80px;
@@ -243,23 +292,6 @@ body{
       top: 440px;
   }
 
-  .icon {
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left 50% ;
-    background-size: 20px;
-    font-family: Poppins;
-    width: 398px;
-    height: 60px;
-    color: #0e57dd;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.53;
-    letter-spacing: normal;
-    background-color: #fff;
-    background-position: right 95% bottom 45%;
-    
-  }
 
   .restaurantSelector{
  
@@ -273,13 +305,12 @@ body{
   .Search_More{
     position: relative;
     margin-left: 80px;
-    margin-top: 45px;
-    font-size: 10px;
-    
+    margin-top: 105px;
+    width: 362px;
   }
 
   .Search_MoreText{
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .back-img {
@@ -289,21 +320,20 @@ body{
   background-size: cover;
   }
 
+  
+
   .qs_div{
       width: 360px;
       height: 160px;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      margin-left: -44px;
+      margin-left: -18px;
     }
 
     .Quick-Searches{
         margin-left: -50px;
     }
 
-    .Discover-restaurants-by-type-of-meal{
-        margin-left: -48px;
-        max-width: 100%;
-    }
+    
 
     .logoutDiv{
       display: inline-block;
@@ -336,24 +366,81 @@ body{
     }
 
     .createacc{
-      margin-left: 50px;
+      margin-left: 60px;
+      width: 150px;
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:451px) {
   
- 
-  /* ------------------------------------------------ */
+  .qs_menu2{
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+  }
+
+  .back-img{
+    background-image: url('../Assets/Images/shutterstock_348320018@3x.jpg');
+    height: 480px;
+    background-size: cover;
+  }
+  
+  .login, .createacc, .login:hover, .createacc:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .logo{
+    display: inline;
+    color: #eb2929;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    background-color: white;
+  }
+  
+  .restaurant-title{
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  
+  
+  .locationDropdown{
+    appearance: none;
+    border: none;
+    font-family: Poppins;
+    color: #1f3d75;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    background-color: #fff;
+  }
+  
+  
+  ::placeholder {
+    color: #1f3d75;
+    opacity: 1;
+  }
+
+/* ------------------------------------------------ */
 /* RegisterPage Css */
 /* ------------------------------------------------ */
 
-.qs_menu2{
-  max-width: 100%;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 50px;
-}
-  
+
 .registermodal{
   position: absolute;
   width: 600px;
@@ -375,11 +462,13 @@ body{
     background-color: rgba(136, 136, 136, 0.65)
 }
 
-.grid-container{
+.grid-containerRegister{
+
   margin: 10px;
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  grid-template-columns: repeat(2, 350px);
   grid-auto-rows: minmax(10px, auto);
+  margin-left: 120px;
 }
 
 .grid-item-sub{
@@ -391,7 +480,7 @@ body{
 
    .RestSearch{
     
-    max-width: 100%;
+    width: 405px;
     height: 100px;
     padding-top: 20px;
    }
@@ -535,76 +624,64 @@ body{
       margin-left: -13px;
      
   }
+
+
+  .Quick-Searches {
+    width: 390px;
+    height: 75px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    color: #192f60;
+  }
+  
+  .Discover-restaurants-by-type-of-meal{
+    width: 490px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #8c96ab;
+  }
+  
+  .qk1_heading{
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;   
+  }
+  
+  .qk1_info{
+    width: 137px;
+    height: 62px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  .qs_div{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
   
 
 }
 
-.Quick-Searches {
-  width: 390px;
-  height: 75px;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 700;
-  color: #192f60;
-}
-
-.Discover-restaurants-by-type-of-meal{
-  max-width: 100%;
-  height: 25px;
-  font-family: Poppins;
-  font-size: 18px;
-  color: #8c96ab;
-}
-
-.qk1_heading{
-  width: 88px;
-  height: 25px;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #192f60;   
-}
-
-.qk1_info{
-  width: 137px;
-  height: 62px;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #8c96ab;
-}
-
-.qs_div{
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-}
 
 
 
-/* ------------------------------------------------ */
-/* RegisterPage Css */
-/* ------------------------------------------------ */
 
 
-.grid-container{
-  margin: 90px;
-  display: grid;
-  grid-template-columns: repeat(2, 150px);
-  grid-auto-rows: minmax(10px, auto);
-}
-
-.grid-item-sub{
-  grid-column: 1 / -1;
-  width: 420px;
-}
 
 
