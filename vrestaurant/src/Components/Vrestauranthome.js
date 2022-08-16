@@ -87,8 +87,8 @@ export default class Vrestauranthome extends Component {
         },
 
         content: {
-            top: '40%',
-            left: '50%',
+            top: '60%',
+            left: '56%',
             width: '370px',
             height:'400px',
             marginRight: '-50%',
