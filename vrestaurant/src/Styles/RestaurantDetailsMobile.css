@@ -4,10 +4,10 @@
 
 .modalCart{
     position: fixed;
-    top: 30px;
+    top: 40px;
     bottom: 0;
     right: 0;
-    left: 10px;
+    left: 45px;
     padding-top: 10px;
     width: 100vw;
     height: 100vh;
@@ -22,7 +22,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(136, 136, 136, 0.14);
+    background-color: rgba(136, 136, 136, 0.65);
 }
 
 
