@@ -135,14 +135,3 @@
   }
 
   
-  .galleryButton{
-    color: rgb(7, 7, 80);
-    background-color: white;
-    float: right;
-    margin-right: 50px;
-    margin-top: 210px;
-    width: 250px;
-    height: 60px;
-    opacity: 75%;
-    font-weight: bolder;
-  }
