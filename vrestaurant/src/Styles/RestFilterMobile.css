@@ -200,7 +200,7 @@
 
     .result1-article{
 
-        width: 303px;
+        width: 260px;
         height: 200px; 
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
         background-color: white;
@@ -231,7 +231,7 @@
         position: relative;
         left: 55px;
         top:1px;
-        width: 450px;
+        width: 140px;
         height: 90px;
         margin-bottom: 10px;
         
@@ -240,7 +240,7 @@
     
     .The-Big-Chill-Cakery {
         position: absolute;
-        width: 450px;
+        width: max-content;
         height: 90px;
         font-family: Poppins;
         font-size: 15px;
@@ -268,7 +268,7 @@
         position: absolute;
         top: 44px;
         left: 0px;
-        width: 420px;
+        width: 200px;
         font-size: 11px;
         height: 23px;
         font-family: Poppins;
@@ -278,7 +278,7 @@
     }
 
     .Path-6195 {
-        width: 240px;
+        width: 200px;
         height: 0;
         margin-left: 59px;
         margin-top: 55px;
@@ -292,7 +292,7 @@
         margin-left: 8px;
         margin-top: 7px;
         padding-top: 10px;
-        padding-left: 50px;
+        padding-left: 10px;
        
     }
 
@@ -313,7 +313,7 @@
     }
 
     .cuisine-content{
-        margin-left: 160px;
+        margin-left: 120px;
         margin-top: -72px;
         line-height: 28px;
         color: #192f60;
@@ -327,10 +327,11 @@
     .pagination {
         
         position: absolute;
-        left: 100px;
-        width: 280px;
-        margin-top: -30px;
-        margin-left: 190px;
+        left: -221px;
+        width: 240px;
+        height: 30px;
+        margin-top: -100px;
+        margin-left: -10px;
         
         
     }
@@ -338,7 +339,7 @@
 
     .paginationdiv{
         
-        margin-left: 12px;
+        margin-left: 5px;
         width: 28px;
         height: 27px;
         background-color: white;
