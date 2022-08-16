@@ -15,7 +15,7 @@ body{
   outline: solid #f00 1px !important;
 } */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
 
   .icon {
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left 50% ;
@@ -304,9 +304,9 @@ body{
 
   .Search_More{
     position: relative;
-    margin-left: 20px;
+    margin-left: 74px;
     margin-top: 105px;
-    width: 362px;
+    width: 346px;
   }
 
   .Search_MoreText{
