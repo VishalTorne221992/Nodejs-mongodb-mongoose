@@ -115,7 +115,7 @@ body{
     font-family: Poppins;
     font-size: 18px;
     color: #8c96ab;
-    margin-left: -48px;
+    margin-left: 18px;
   }
   
   .qk1_heading{
@@ -304,7 +304,7 @@ body{
 
   .Search_More{
     position: relative;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-top: 105px;
     width: 362px;
   }
