@@ -35,7 +35,7 @@ export default class LogOutComponent extends Component {
     return (
       <div className='px-2 py-2 logoutDiv' >
            
-           <div className="createacc px-2 py-2" style={{ display:'inline-block', marginLeft:'0px', border:'2px solid whitesmoke'}}><Link to='#' onClick={() => this.handleLogout()} style={{textDecoration:'none', color:'white'}}> LogOut </Link></div>
+           <div className="createacc px-2 py-2" style={{ display:'inline-block', marginLeft:'0px', border:'2px solid whitesmoke'}}><Link to='#' onClick={() => this.handleLogout()} style={{textDecoration:'none', color:'white', marginLeft:'30px', fontSize:'20px'}}> LogOut </Link></div>
 
       </div>
     )
