@@ -143,9 +143,9 @@
     background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
     background-size: 100%;
     top: 50px;
-    left:-100px;
+    left:-105px;
     height: 300px;
-    width: 400px;
+    width: 399px;
     overflow: hidden;
     background-color: green;
 }
