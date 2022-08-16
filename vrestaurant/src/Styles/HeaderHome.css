@@ -110,7 +110,7 @@ body{
   }
   
   .Discover-restaurants-by-type-of-meal{
-    width: 410px;
+    width: 340px;
     height: 25px;
     font-family: Poppins;
     font-size: 18px;
@@ -304,9 +304,9 @@ body{
 
   .Search_More{
     position: relative;
-    margin-left: 74px;
+    margin-left: 84px;
     margin-top: 105px;
-    width: 346px;
+    width: 310px;
   }
 
   .Search_MoreText{
