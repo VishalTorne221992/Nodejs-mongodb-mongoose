@@ -479,16 +479,23 @@ body{
 
 .grid-container-register{
 
-  margin: 10px;
+  margin: 10px 20px 50px 40px;
   display: grid;
-  grid-template-columns: repeat(2, 350px);
+  grid-template-columns: repeat(2, 150px);
   grid-auto-rows: minmax(10px, auto);
-  margin-left: 120px;
+  
 }
+  
+.btnRegisterGoBack{
+  
+  width: 210px;
+  margin-top: -72px;
+  margin-left: 40px;
+ }
   
 .grid-container-register > input{
   width: 210px;
-
+  margin-bottom: 10px;
 }
 
 .grid-item-sub{
