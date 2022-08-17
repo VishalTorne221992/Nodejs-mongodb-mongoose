@@ -4,10 +4,10 @@
 
 .modalCart{
     position: fixed;
-    top: 40px;
+    top: 50px;
     bottom: 0;
     right: 0;
-    left: 45px;
+    left: 10px;
     padding-top: 10px;
     width: 100vw;
     height: 100vh;
@@ -63,7 +63,7 @@
 .modalCartCartTotal{
     font-weight: bolder;
     padding-bottom: 15px;
-    margin-top: -9px;
+    margin-top: 89px;
     margin-left: 90px;
     display: inline-block;
 }
@@ -83,7 +83,7 @@
 
 .modalCartPDFgen{
     width: 110px;
-    margin-top: -300px;
+    margin-top: -350px;
 }
 
 .modalCartPrintdetailstext{
