@@ -400,7 +400,7 @@ body{
     background-size: cover;
   }
   
-  .login, .createacc, .logoutLabel, .login:hover, .createacc:hover{
+  .login, .createacc, .login:hover, .createacc:hover{
     color: white;
     text-decoration: none;
     opacity: 0.8;
@@ -620,31 +620,9 @@ body{
     font-size: 20px;
   }
 
- 
-  
-.login2{
-      position: absolute;
-      display: inline-block;
-      font-size: 15px;
-      color: white;
-      left: 12px;
-      top: 5px;
-      border: solid whitesmoke;
-      padding: 10px;
-
-}
-
-.createacc{
-      margin-left: 100px;
-      width: max-content;
- }
-
-.logoutLabel{
-        
-      margin-left: 60px;
-      width: max-content;
-
- }
+  .createacc{
+    margin-left: 20px;
+  }
   
 
   
@@ -710,6 +688,31 @@ body{
   .qs_div{
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   }
+
+  .createacc{
+    margin-left: 100px;
+    width: 146px;
+  }
+
+  .logoutLabel{
+      
+    margin-left: 60px;
+    width: 95px;
+
+  }
+
+  .login2{
+    position: absolute;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    left: 12px;
+    top: 5px;
+    border: solid whitesmoke;
+    padding: 10px;
+
+  }
+
   
 
 }
