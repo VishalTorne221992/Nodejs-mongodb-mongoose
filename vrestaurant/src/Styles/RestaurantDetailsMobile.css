@@ -448,7 +448,8 @@
 
 .modalCartPDFgen{
     width: 200px;
-    margin-top: -320px;
+    margin-top: -360px;
+    margin-left: 645px;
 }
 
 .modalCartPrintdetailstext{
@@ -459,10 +460,9 @@
 }
 
 .modalCartGoBackbtn{
-    position: absolute;
-    display: inline-block;
-    left: 375px;
-    top: 500px;
+    margin-left: 340px;
+    margin-top: -120px;
+    width: 220px;
 }
 
 
