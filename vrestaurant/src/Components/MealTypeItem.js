@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../Styles/HeaderHome.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import '../Styles/HeaderHome.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from 'react-router-dom';
 
 export default class MealTypeItem extends Component {
   render() {
