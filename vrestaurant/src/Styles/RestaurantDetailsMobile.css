@@ -208,13 +208,13 @@
 
 .tabs{
     position: absolute;
-    top: 520px;
+    top: 540px;
     left: 20px;
 }
 
 .tabs__content{
     position: absolute;
-    top: 80px;
+    top: 55px;
     left: 10px;
 }
 
