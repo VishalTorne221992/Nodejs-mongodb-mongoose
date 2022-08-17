@@ -231,7 +231,7 @@ export default function Cart() {
 
       </Modal>
 
-      <Modal isOpen={isUserdetailsModalOpen} style={customStylesUser}>
+      <Modal isOpen={isUserdetailsModalOpen} className='UserPaymentPageModal' overlayClassName='UserPaymentPageOverlay'>
 
         <div style={{fontSize:'25px', padding:'10px'}}> <label>User Name: </label> <div style={{display:'inline-block'}}> {user} </div> </div>
         <div style={{fontSize:'25px', paddingBottom:'10px', paddingLeft:'10px'}}> <label>Shipping Address: </label> <div style={{display:'inline-block'}}> {userData.Address} </div> </div>
