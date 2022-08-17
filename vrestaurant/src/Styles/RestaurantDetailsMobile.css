@@ -505,6 +505,24 @@
     float:right;
     background-color: #ce0505;
 }
+    
+    
+.modalRestOverlay{
+     background-color: red;
+}
+
+.modalRest{
+    position: absolute;
+    width: 1200px;
+    height: 850px;
+    right: 10px;
+    left: 70px;
+    padding: 30px;
+    top: 30px;
+    bottom: 10px;
+    background-color: white;
+    box-shadow: 0 8px 6px 5px rgba(0, 0, 0, 0.16);
+}
 
 .MenuButtonModal{
     position: absolute;
@@ -635,7 +653,7 @@
     color: rgb(7, 7, 80);
     background-color: white;
     float: right;
-    margin-right: 50px;
+    margin-right: 120px;
     margin-top: 210px;
     width: 250px;
     height: 60px;
