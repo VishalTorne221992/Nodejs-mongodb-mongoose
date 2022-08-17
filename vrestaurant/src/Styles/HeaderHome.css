@@ -620,9 +620,31 @@ body{
     font-size: 20px;
   }
 
-  .createacc{
-    margin-left: 20px;
-  }
+ 
+  
+.login2{
+      position: absolute;
+      display: inline-block;
+      font-size: 15px;
+      color: white;
+      left: 12px;
+      top: 5px;
+      border: solid whitesmoke;
+      padding: 10px;
+
+}
+
+.createacc{
+      margin-left: 100px;
+      width: max-content;
+ }
+
+.logoutLabel{
+        
+      margin-left: 60px;
+      width: max-content;
+
+ }
   
 
   
