@@ -162,6 +162,8 @@ body{
     bottom: 40px;
     padding-top: 10px;
     background-color: papayawhip;
+    height: max-content;
+    padding-bottom: 10px;
 }
 
 .registermodaloverlay{
@@ -185,7 +187,7 @@ body{
   
 .btnRegisterGoBack{
   margin-top: 25px;
-  margin-left: 140px;
+  margin-left: 145px;
  }
 
 .grid-container-register > input{
