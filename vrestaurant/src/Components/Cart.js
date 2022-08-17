@@ -28,7 +28,7 @@ export default function Cart() {
   
   window.addEventListener('beforeunload', (e) => {
     e.preventDefault();
-    navigate(`/RestaurantDetails/${RestaurantName}`, { replace: false})
+    navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})
 
   })
 
