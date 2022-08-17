@@ -26,11 +26,11 @@ export default function Cart() {
         navigate("/")
   }
   
-  window.onbeforeunload = () => {
+  window.addEventListener('beforeunload', (e) => {
+    e.preventDefault();
+    navigate(`/RestaurantDetails/${RestaurantName}`, { replace: false})
 
-    navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})
-
-  }
+  })
 
 
   const newCartTotal = cartItems.reduce((newTotal, item) => {
