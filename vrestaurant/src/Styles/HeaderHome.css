@@ -173,7 +173,7 @@ body{
     background-color: rgba(136, 136, 136, 0.65)
 }
 
-.grid-containerRegister{
+.grid-container-register{
   width: 100px;
   display: grid;
   grid-template-columns: repeat(2, 125px);
@@ -183,7 +183,7 @@ body{
 
 }
 
-.grid-containerRegister > input{
+.grid-container-register > input{
   width: 210px;
 
 }
