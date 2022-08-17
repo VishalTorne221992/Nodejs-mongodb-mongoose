@@ -33,7 +33,7 @@ body{
     background-color: #fff;
     background-position: right 95% bottom 45%;
     position: relative;
-    
+    padding-left: 50px;
     
   }
 
@@ -504,7 +504,7 @@ body{
     width: 245px;
     height: 60px;
     
-    margin-left: 380px;
+    margin-left: 410px;
     
    }
 
@@ -528,7 +528,7 @@ body{
       width: 400px;
       height: 229px;
       margin-top: -60px;
-      margin-left: 640px;
+      margin-left: 670px;
       
    }
 
