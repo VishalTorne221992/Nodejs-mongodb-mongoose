@@ -457,11 +457,11 @@ body{
 
 
 .registermodal{
-  position: absolute;
-  width: 600px;
-  height: 500px;
+    position: absolute;
+    width: 600px;
+    height: 500px;
     top: 90px;
-    left: 600px;
+    left: 350px;
     right: 40px;
     bottom: 40px;
     padding: 50px;
@@ -477,13 +477,18 @@ body{
     background-color: rgba(136, 136, 136, 0.65)
 }
 
-.grid-containerRegister{
+.grid-container-register{
 
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(2, 350px);
   grid-auto-rows: minmax(10px, auto);
   margin-left: 120px;
+}
+  
+.grid-container-register > input{
+  width: 210px;
+
 }
 
 .grid-item-sub{
