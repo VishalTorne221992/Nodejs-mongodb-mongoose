@@ -379,9 +379,9 @@
     top: 30px;
     bottom: 0;
     right: 0;
-    left: 280px;
+    left: 200px;
     padding-top: 10px;
-    width: max-content;
+    width: 70vw;
     height: max-content;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
     overflow: hidden;
@@ -403,6 +403,8 @@
     font-size: 20px;
     font-weight: bolder;
     margin-left: 50px;
+    background-color: #fff;
+    width: 800px;
         
 }
 
@@ -424,23 +426,24 @@
 .modalCartCartTotal{
     font-weight: bolder;
     overflow: hidden;
-    padding-bottom: 15px;
-    margin-top: 70px;
-    margin-left: 90px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
 }
 
 .modalCartPaynow{
     
     margin-bottom: 70px;
     margin-top: -1px;
-    width: 440px;
-    margin-left: 160px;
+    width: 450px;
+    margin-left: 225px;
 }
 
 .modalCartPaynowspan{
     font-size: 30px;
     font-weight: bolder;
 }
+
 
 .modalCartPDFgen{
     position: absolute;
@@ -514,7 +517,7 @@
 .modalRest{
     position: absolute;
     width: 1200px;
-    height: 850px;
+    height: max-content;
     right: 10px;
     left: 70px;
     padding: 30px;
@@ -653,7 +656,7 @@
     color: rgb(7, 7, 80);
     background-color: white;
     float: right;
-    margin-right: 120px;
+    margin-right: 180px;
     margin-top: 210px;
     width: 250px;
     height: 60px;
