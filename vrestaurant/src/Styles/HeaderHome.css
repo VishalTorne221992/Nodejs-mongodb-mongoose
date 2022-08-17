@@ -154,7 +154,7 @@ body{
 
 .registermodal{
   position: absolute;
-  width: 390px;
+  width: 100vw;
   height: 300px;
     top: 200px;
     left: 1px;
@@ -174,14 +174,19 @@ body{
 }
 
 .grid-container-register{
-  width: 100px;
+  width: 410px;
   display: grid;
   grid-template-columns: repeat(2, 125px);
   grid-auto-rows: minmax(10px, auto);
-  background-color: red;
-  
+  padding-left: 30px;
+  margin-top: 30px;
 
 }
+  
+.btnRegisterGoBack{
+  margin-top: 25px;
+  margin-left: 140px;
+ }
 
 .grid-container-register > input{
   width: 210px;
