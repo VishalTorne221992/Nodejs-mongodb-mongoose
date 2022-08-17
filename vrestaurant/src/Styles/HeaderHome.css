@@ -365,9 +365,16 @@ body{
 
     }
 
-    .createacc{
+      .createacc{
       margin-left: 60px;
-      width: 95px;
+      width: max-content;
+    }
+
+    .logoutLabel{
+        
+      margin-left: 60px;
+      width: max-content;
+
     }
 }
 
@@ -386,7 +393,7 @@ body{
     background-size: cover;
   }
   
-  .login, .createacc, .login:hover, .createacc:hover{
+  .login, .createacc, .logoutLabel, .login:hover, .createacc:hover{
     color: white;
     text-decoration: none;
     opacity: 0.8;
