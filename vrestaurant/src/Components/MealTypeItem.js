@@ -10,6 +10,7 @@ export default class MealTypeItem extends Component {
     return ( 
         <div className="col-lg-4 py-3">
         <div className="qs_div">
+          <Link to='/restaurants/filter/1' style={{textDecoration:'none'}}>
             <div className="d-flex align-self-stretch">
                 <div className="qk_image1">
                     <a href="/">
@@ -22,6 +23,7 @@ export default class MealTypeItem extends Component {
                     <p className="qk1_info">{content}</p>
                 </div>
             </div>
+          </Link>
         </div>
     </div>
     )
