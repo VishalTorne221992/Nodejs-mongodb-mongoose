@@ -645,4 +645,16 @@
     font-weight: bolder;
 }
     
+    
+.RestaurantDetailImage{
+    background: url('../Assets//Images/breakfast.jpg') no-repeat left 35%;
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: gold;
+    height: 290px;
+    
+}
+    
 }
