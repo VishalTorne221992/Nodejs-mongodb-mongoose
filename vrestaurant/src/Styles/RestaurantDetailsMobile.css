@@ -359,16 +359,17 @@
 .UserPaymentPageModal{
  
      position: absolute;
-     top:100px;
-     bottom: 100px;
+     top:60px;
+     bottom: 110px;
      right: 0;
      left: 0;
-     margin-left: 180px;
-     padding-top: 10px;
+     margin-left: 240px;
+     padding-top: 12px;
      padding-left: 50px;
      width: 900px;
      border: 2px solid black;
      background-color: white;
+     margin-bottom: 10px;
 
 }
     
