@@ -452,7 +452,7 @@ export default class Vrestauranthome extends Component {
 
 
 
-                    <div className='btn btn-danger' onClick={() => this.setState({ registerOpen: false, registerMessage: [] })}>  Go Back </div>
+                    <div className='btn btn-danger btnRegisterGoBack' onClick={() => this.setState({ registerOpen: false, registerMessage: [] })}>  Go Back </div>
 
                 </Modal>
 
