@@ -651,7 +651,6 @@ body{
     color: #192f60;
     margin-top: -30px;
     margin-left: -40px;
-    margin-top: 30px;
     margin-bottom: -20px;
   }
   
@@ -662,6 +661,8 @@ body{
     font-size: 18px;
     color: #8c96ab;
     margin-left: 58px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
   
   .qk1_heading{
