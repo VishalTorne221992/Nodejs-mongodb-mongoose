@@ -39,11 +39,6 @@ export default function Cart() {
   }, 0)
   
   
- useEffect(() => {
-    
-    if(cartItems.length !== 0)
-    return setIsMenuModalopen(true)
-  }, [cartItems])
   
   useEffect(() => {
  
