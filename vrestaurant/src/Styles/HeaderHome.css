@@ -313,7 +313,8 @@ body{
   .Search_More{
     position: relative;
     margin-left: 84px;
-    margin-top: 105px;
+    margin-top: 82px;
+    margin-bottom: 10px
     width: 310px;
   }
 
