@@ -17,7 +17,6 @@ export default function Cart() {
   const [savedCartTotal, setsavedCartTotal] = useState(0)
   const cartTotal = useRef(0)
   const [isUserdetailsModalOpen, setisUserdetailsModalOpen] = useState(false)
-  const [ItemsinCart, setItemsinCart] = useState([])
   const { user, userData, LoggedIn, cartItems, Restaurantname, dispatch } = useContext(MenuCartContext)
 
   let navigate = useNavigate()
@@ -216,18 +215,12 @@ export default function Cart() {
 
               {
 
-                cartItems.length !== 0 ? cartItems.map((item) => {
+                cartItems.map((item) => {
 
                   return <div className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} newCartTotal={newCartTotal} /> </div>
 
                 }) 
-                :
-
-                ItemsinCart.map((item) => {
-
-                  return <div className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} newCartTotal={newCartTotal} /> </div>
-
-                })
+                
 
               }
 
