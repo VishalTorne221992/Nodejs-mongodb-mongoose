@@ -38,11 +38,13 @@ export default function Cart() {
     return newTotal + item.itemTotalPrice
   }, 0)
   
-  useEffect(() => {
-
-    setItemsinCart(cartItems)
-
-  },[])
+  
+    useEffect(() => {
+    
+    if(cartItems.length !== 0)
+    return setIsMenuModalopen(true)
+  }, [cartItems])
+  
 
   useEffect(() => {
     setsavedCartTotal(newCartTotal)
