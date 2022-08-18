@@ -209,11 +209,20 @@ export default function Cart() {
               <div className='grid-header'> YOUR MENU DETAILS :</div>
 
               {
-                cartItems.map((item) => {
 
-                  return <div key={item._id} className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} cartTotal={cartTotal} /> </div>
+                cartItems.length !== 0 ? cartItems.map((item) => {
+
+                  return <div className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} newCartTotal={newCartTotal} /> </div>
+
+                }) 
+                :
+
+                ItemsinCart.map((item) => {
+
+                  return <div className='grid-item gridItemsCart' ><CartItems item={item} key={item._id} newCartTotal={newCartTotal} /> </div>
 
                 })
+
               }
 
 
