@@ -195,13 +195,13 @@
 .RestaurantName{
     position: absolute;
     left: 10px;
-    top: 485px;
+    top: 465px;
 }
 
 .PlaceOrder{
     position: absolute;
     left: 3px;
-    top: 420px;
+    top: 390px;
     margin:17px;
     float:right;
     background-color: #ce0505;
@@ -209,13 +209,13 @@
 
 .tabs{
     position: absolute;
-    top: 540px;
-    left: 20px;
+    top: 520px;
+    left: 15px;
 }
 
 .tabs__content{
     position: absolute;
-    top: 55px;
+    top: 47px;
     left: 10px;
 }
 
@@ -503,9 +503,10 @@
 }    
     
 .PlaceOrder{
-    margin:17px;
+    
     float:right;
     background-color: #ce0505;
+    margin-top: -73px;
 }
     
     
