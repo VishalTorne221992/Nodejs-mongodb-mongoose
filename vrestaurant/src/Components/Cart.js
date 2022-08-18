@@ -28,7 +28,7 @@ export default function Cart() {
   }
   
   window.onbeforeunload = () => {
-    window.location.assign(`/RestaurantDetails/${RestaurantName}`)
+    window.location.assign(`/RestaurantDetails/${Restaurantname}`)
     return "go to other page";
   }
 
