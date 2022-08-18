@@ -17,6 +17,7 @@ export default function Cart() {
   const [savedCartTotal, setsavedCartTotal] = useState(0)
   const cartTotal = useRef(0)
   const [isUserdetailsModalOpen, setisUserdetailsModalOpen] = useState(false)
+  const [ItemsinCart, setItemsinCart] = useState([])
   const { user, userData, LoggedIn, cartItems, Restaurantname, dispatch } = useContext(MenuCartContext)
 
   let navigate = useNavigate()
@@ -26,17 +27,22 @@ export default function Cart() {
         navigate("/")
   }
   
-  window.addEventListener('beforeunload', (e) => {
-    e.preventDefault();
-    navigate(`/RestaurantDetails/${Restaurantname}`, { replace: false})
-
-  })
+  window.onbeforeunload = () => {
+    window.location.assign(`/RestaurantDetails/${RestaurantName}`)
+    return "go to other page";
+  }
 
 
   const newCartTotal = cartItems.reduce((newTotal, item) => {
 
     return newTotal + item.itemTotalPrice
   }, 0)
+  
+  useEffect(() => {
+
+    setItemsinCart(cartItems)
+
+  },[])
 
   useEffect(() => {
     setsavedCartTotal(newCartTotal)
@@ -44,6 +50,8 @@ export default function Cart() {
     cartTotal.current = savedCartTotal
     
   }, [newCartTotal, savedCartTotal])
+  
+
 
 
   function jsPdfGenerator() {
