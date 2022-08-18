@@ -39,11 +39,20 @@ export default function Cart() {
   }, 0)
   
   
-    useEffect(() => {
+ useEffect(() => {
     
     if(cartItems.length !== 0)
     return setIsMenuModalopen(true)
   }, [cartItems])
+  
+  useEffect(() => {
+ 
+    // dispatching name when Restaurant name changes by any component through link or whatever
+    
+    dispatch({type:'getRestaurantname', payload: {name: Restaurantname}})
+
+     
+  }, [Restaurantname])
   
 
   useEffect(() => {
