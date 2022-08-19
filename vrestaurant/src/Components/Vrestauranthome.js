@@ -247,10 +247,7 @@ export default class Vrestauranthome extends Component {
 
         let matches = []
         
-        if(SearchText.length === 0){
-
-            return this.setState({isHovering: false})
-        }
+      
 
         if (SearchText.length > 0) {
 
