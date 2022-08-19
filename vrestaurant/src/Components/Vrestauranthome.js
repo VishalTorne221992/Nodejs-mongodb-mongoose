@@ -353,7 +353,7 @@ export default class Vrestauranthome extends Component {
 
                                             <>
                                                 {
-                                                    restaurantList ? restaurantList : 'First Please select location'
+                                                    restaurantList ? restaurantList : ''
                                                 }
                                             </>
 
