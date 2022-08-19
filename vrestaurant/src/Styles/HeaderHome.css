@@ -36,6 +36,15 @@ body{
     padding-left: 50px;
     
   }
+  
+    .CopyrightStyle{
+    display: inline-block;
+    position: absolute;
+    top: 270vh;
+    left: 8px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
 
   .qs_menu2{
     max-width: 100%;
@@ -732,6 +741,14 @@ body{
     border: solid whitesmoke;
     padding: 10px;
 
+  }
+  
+    .CopyrightStyle{
+    display: inline-block;
+    position: absolute;
+    top: 985px;
+    left: 500px;
+    padding-bottom: 10px;
   }
 
   
