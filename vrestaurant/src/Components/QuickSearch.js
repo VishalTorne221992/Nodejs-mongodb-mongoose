@@ -43,7 +43,7 @@ export default class QuickSearch extends Component {
                       
                 
                 <div className='transitionImage1'><img className='transitionImage' src={require('../Assets/Images/148-1484366_saturday-october-19-red-right-arrow-png.png')} alt='NoImage' /></div>
-                <div className="Quick-Searches pt-2" style={{ paddingLeft: '96px' }}>
+                <div className="Quick-Searches" style={{ paddingLeft: '96px' }}>
                      <b>Quick Searches</b>
                 </div>
 
@@ -53,7 +53,7 @@ export default class QuickSearch extends Component {
 
 
 
-                <div className="row pt-2 py-3 qs_menu2">
+                <div className="row pt-0 py-3 qs_menu2">
 
 
                     {quickSearchList}
