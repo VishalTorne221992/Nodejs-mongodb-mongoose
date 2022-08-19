@@ -56,7 +56,7 @@ export default class QuickSearch extends Component {
                 <div className="row pt-0 py-3 qs_menu2">
 
 
-                    {quickSearchList}
+                    {quickSearchList ? quickSearchList : <p> Loading .....</p> }
 
                 </div>
 
