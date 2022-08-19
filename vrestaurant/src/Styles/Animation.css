@@ -7,7 +7,7 @@
   .transitionImage{
     position: absolute;
     width: 80px;
-    top: 598px;
+    top: 609px;
     width: 60px;
     z-index: -1;
     animation-name: imgAnimation;
