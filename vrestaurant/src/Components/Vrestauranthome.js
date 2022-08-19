@@ -28,7 +28,7 @@ export default class Vrestauranthome extends Component {
             restaurants: [],
             isOpen: false,
             registerOpen: false,
-            registerMessage: '',
+            registerMessage: 'Please fill out all the fields to register !',
             currentUsername: 'Guest',
             usernameLogin: '',
             passwordLogin: '',
@@ -374,7 +374,7 @@ export default class Vrestauranthome extends Component {
                     <h2>Login</h2>
 
                     <form id='LoginForm'>
-
+                        <div> Please fill both required fields to continue : </div>
                         <div style={{ marginBottom: '10px', marginTop: '15px' }}><input type='text' id='usernameLogin' name='usernameLogin' placeholder='Email or Username' className='form-control' /></div>
 
                         <div> <input type='password' placeholder='Password' id='passwordLogin' name='passwordLogin' className='form-control' /> </div>
