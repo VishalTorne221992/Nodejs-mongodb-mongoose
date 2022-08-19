@@ -83,14 +83,15 @@ export default class Vrestauranthome extends Component {
 
         overlay: {
             backgroundColor: 'rgb(136, 136, 136, 0.65)',
+            zIndex:'20'
 
         },
 
         content: {
             top: '60%',
-            left: '56%',
-            width: '370px',
-            height:'400px',
+            left: '254px',
+            width: '420px',
+            height:'430px',
             marginRight: '-50%',
             transform: 'translate(-60%, -60%)',
             overflow: "hidden"
