@@ -340,7 +340,7 @@ export default class Vrestauranthome extends Component {
                             <div className='RestSearchInput'>
 
                                 <input className="icon" type="text" placeholder="  Search for restaurants" onMouseEnter={() => this.setState({ isHovering: true })}
-                                     onChange={(e) => this.handleSearchChange(e)} />
+                                     onChange={(e) => this.handleSearchChange(e)} onFocus={this.fetchRestaurants} />
 
                             </div>
 
