@@ -40,10 +40,10 @@ body{
     .CopyrightStyle{
     display: inline-block;
     position: absolute;
-    top: 270vh;
+    top: 264vh;
     left: 8px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .qs_menu2{
