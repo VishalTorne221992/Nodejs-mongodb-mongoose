@@ -159,7 +159,7 @@ export default function RestaurantDetails() {
           </div>
         </div>
 
-
+         <div className='CopyrightStyle'> &copy; Vishal Torne , Byculla , Mumbai Maharashtra</div>
 
       </div>
 
