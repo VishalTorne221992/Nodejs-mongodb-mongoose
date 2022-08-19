@@ -61,9 +61,9 @@ export default class Vrestauranthome extends Component {
 
         this.setState({ currentUsername: Localuser })
         
-        document.addEventListener('click', () => {
-            this.setState({isHovering: false})
-        })
+//         document.addEventListener('click', () => {
+//             this.setState({isHovering: false})
+//         })
 
 
     }
