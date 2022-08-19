@@ -262,7 +262,7 @@ body{
       width: 370px;
       height: 229px;
       margin-top: 15px;
-      margin-left: 15px;
+      margin-left: 12px;
    }
 
 
@@ -295,7 +295,7 @@ body{
 
   .RestaurantListCSS1 > ul > li:hover{
     background: rgb(149, 207, 240);
-    width: 364px;
+    width: 365px;
   }
 
 
@@ -374,7 +374,7 @@ body{
       font-weight: bolder;
       color: white;
       top: 33px;
-      left: 10px;
+      left: 12px;
 
     }
 
