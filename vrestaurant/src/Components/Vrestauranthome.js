@@ -302,7 +302,7 @@ export default class Vrestauranthome extends Component {
                             {this.context.user === 'Guest' ? <Login handleRegister={this.handleRegister} onClickButton={this.onClickButton} /> : <LogOut />}</div>
                     </div>
 
-                    <div className="row pt-5 text-center mx-auto">
+                    <div className="row pt-3 text-center mx-auto">
                         <div className="col-12" style={{ paddingRight: "80px" }}>
                             <p className="logo py-2 px-4 py-lg-4 px-lg-5" > Vi </p>
                         </div>
