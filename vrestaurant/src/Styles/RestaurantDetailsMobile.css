@@ -1,5 +1,14 @@
 @media screen and (max-width:450px){
     
+.CopyrightStyle{
+        display: inline-block;
+        position: absolute;
+        top: 100vh;
+        left: 8px;
+        padding-top: 0px;
+        font-size: 18px;
+ }
+    
 .UserPaymentPageOverlay{
      
         position: fixed;
