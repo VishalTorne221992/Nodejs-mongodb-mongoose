@@ -279,7 +279,7 @@ export default class Vrestauranthome extends Component {
                     dispatch({ type: 'getRestaurantname', payload: { name: item.name } })
                     dispatch({ type: 'ClearCart' })
                     dispatch({ type: 'RefreshMenu' })
-                }} style={{ textDecoration: 'none', color: 'red', fontWeight: 'bolder', display:'block', width:'344px', textIndent:'1px', marginLeft:'19px' }}>{item.name}</Link></li>)}</ul>
+                }} style={{ textDecoration: 'none', color: 'red', fontWeight: 'bolder', display:'block', width:'343px', textIndent:'1px', marginLeft:'19px' }}>{item.name}</Link></li>)}</ul>
 
 
         return (
