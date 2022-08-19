@@ -456,7 +456,7 @@ export default class Vrestauranthome extends Component {
 
                 </Modal>
 
-                     <div className='CopyrightStyle'> &copy; Vishal Torne , Byculla , Mumbai Maharashtra</div>
+                     <div className='CopyrightStyleHome'> &copy; Vishal Torne , Byculla , Mumbai Maharashtra</div>
 
             </div>
 
