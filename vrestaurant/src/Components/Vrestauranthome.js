@@ -60,6 +60,10 @@ export default class Vrestauranthome extends Component {
         const Localuser = localStorage.getItem('user')
 
         this.setState({ currentUsername: Localuser })
+        
+        document.addEventListener('click', () => {
+            this.setState({isHovering: false})
+        })
 
 
     }
@@ -242,6 +246,11 @@ export default class Vrestauranthome extends Component {
         let SearchText = e.target.value
 
         let matches = []
+        
+        if(SearchText.length === 0){
+
+            return this.setState({isHovering: false})
+        }
 
         if (SearchText.length > 0) {
 
@@ -255,9 +264,8 @@ export default class Vrestauranthome extends Component {
 
             return this.setState({ RestaurantSearchList: matches })
         }
-
-
-
+        
+        
 
 
         return this.setState({ RestaurantSearchList: this.state.restaurants })
@@ -332,7 +340,7 @@ export default class Vrestauranthome extends Component {
                             <div className='RestSearchInput'>
 
                                 <input className="icon" type="text" placeholder="  Search for restaurants" onMouseEnter={() => this.setState({ isHovering: true })}
-                                     onChange={(e) => this.handleSearchChange(e)} />
+                                     onChange={(e) => this.handleSearchChange(e)} onFocus={() => this.setState({ isHovering : false})} />
 
                             </div>
 
