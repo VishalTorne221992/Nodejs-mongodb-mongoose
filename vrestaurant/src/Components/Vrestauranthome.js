@@ -446,7 +446,7 @@ export default class Vrestauranthome extends Component {
                     <div>
 
 
-                        <div>{this.state.registerMessage}</div>
+                        <div className='registerMessageStyle'>{this.state.registerMessage}</div>
 
 
                     </div>
