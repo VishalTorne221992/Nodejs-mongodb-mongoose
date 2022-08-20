@@ -344,7 +344,7 @@ export default class Vrestauranthome extends Component {
 
                                 {
                                     this.state.isHovering &&
-                                    <div className='RestaurantListCSS1' onMouseLeave={() => this.setState({ isHovering: false })} onTouchMove={() => this.setState({ isHovering: false})}
+                                    <div className='RestaurantListCSS1' onMouseLeave={() => this.setState({ isHovering: false })} 
                                     onTouchStart={() => this.setState({ isHovering: true})} onTouchCancel={() => this.setState({ isHovering: false})} >
                                         {
 
