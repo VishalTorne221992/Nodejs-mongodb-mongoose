@@ -49,7 +49,7 @@ export default function RestaurantDetails() {
     
     dispatch({type:'getRestaurantname', payload: {name: name}})
 
-  const fetchData = async () => await (fetch(`https://v-restaurant.herokuapp.com/zomato/restaurantsDetails/${name}`)
+  const fetchData = async () => await (fetch(`https://vrestaurant.onrender.com/zomato/restaurantsDetails/${name}`)
     .then(res => res.json())
     .then(data => setRestaurant(data.result))
   )
