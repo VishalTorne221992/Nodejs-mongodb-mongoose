@@ -7,11 +7,11 @@
     "node": "17.3.1",
     "npm": "8.3.0"
   },
-  "proxy":"https://v-restaurant.herokuapp.com/",
+  "proxy":"https://vrestaurant.onrender.com/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=true npm install --prefix vrestaurant && npm run build --prefix vrestaurant"
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix vrestaurant && npm run build --prefix vrestaurant"
   },
   "author": "Vishal",
   "license": "ISC",
