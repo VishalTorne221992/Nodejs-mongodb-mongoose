@@ -49,7 +49,7 @@ export default class Vrestauranthome extends Component {
         
         this.setState({ currentUsername: localStorage.getItem('user') })
 
-        fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET', 
+        fetch('https://vrestaurant.onrender.com/zomato/locations', { method: 'GET', 
               headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
@@ -72,7 +72,7 @@ export default class Vrestauranthome extends Component {
 
     fetchRestaurants = (event) => {
 
-        fetch(`https://v-restaurant.herokuapp.com/zomato/restaurants/${event.target.value}`, { method: 'GET', headers: {"Access-Control-Allow-Origin": "*"} })
+        fetch(`https://vrestaurant.onrender.com/zomato/restaurants/${event.target.value}`, { method: 'GET', headers: {"Access-Control-Allow-Origin": "*"} })
             .then(response => response.json())
             .then(data => {
                 this.setState({ restaurants: data.result })
@@ -180,7 +180,7 @@ export default class Vrestauranthome extends Component {
 
         // When users gives user details post to node and get register success or failure message
 
-            fetch('https://v-restaurant.herokuapp.com/zomato/register', requestOptions)
+            fetch('https://vrestaurant.onrender.com/zomato/register', requestOptions)
                 .then(res => res.json())
                 .then(data => this.setState({ registerMessage: data.message }))
 
@@ -212,7 +212,7 @@ export default class Vrestauranthome extends Component {
         }
 
 
-        fetch('https://v-restaurant.herokuapp.com/zomato/login', {
+        fetch('https://vrestaurant.onrender.com/zomato/login', {
             method: 'POST',
             redirect: 'follow',
             headers: { 'Content-Type': 'application/json' },
