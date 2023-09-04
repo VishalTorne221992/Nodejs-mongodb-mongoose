@@ -33,7 +33,7 @@ export default function RestaurantFilter() {
 
         // Fetch data for restaurants list using post method for filters
              
-             fetch(`https://v-restaurant.herokuapp.com/zomato/restaurants/filter/${currentPage}`, requestOptions)
+             fetch(`https://vrestaurant.onrender.com/zomato/restaurants/filter/${currentPage}`, requestOptions)
             .then(res => res.json())
             .then(data => {
                 setRestaurantList(data.data1)
@@ -45,7 +45,7 @@ export default function RestaurantFilter() {
 
         
 
-            fetch('https://v-restaurant.herokuapp.com/zomato/locations', { method: 'GET' })
+            fetch('https://vrestaurant.onrender.com/zomato/locations', { method: 'GET' })
                 .then(res => res.json())
                 .then(data => setLocations(data.data))
         
