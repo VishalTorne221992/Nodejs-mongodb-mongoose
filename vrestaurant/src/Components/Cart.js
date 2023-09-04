@@ -107,7 +107,7 @@ export default function Cart() {
 
     let data;
 
-      data = await fetch('https://v-restaurant.herokuapp.com/payment/razorpay', 
+      data = await fetch('https://vrestaurant.onrender.com/payment/razorpay', 
       {
         method:'POST',
         headers: {'Content-Type': 'application/json'},
@@ -140,7 +140,7 @@ export default function Cart() {
                 transaction_amount: data.amount 
                }
 
-               fetch('https://v-restaurant.herokuapp.com/payment/transactions', {
+               fetch('https://vrestaurant.onrender.com/payment/transactions', {
                 method:'POST',
                 headers:{'Content-Type':'application/json'},
                 body: JSON.stringify(values)
