@@ -122,7 +122,7 @@ Router.delete('/logout', function(req, res){
     console.log(req.session)
     console.log(req.sessionID,'this is session Id')
     
-    res.redirect(303,'https://v-restaurant.herokuapp.com/')
+    res.redirect(303,'https://vrestaurant.onrender.com/')
     //res.json({data:'hello deleted'})
 })
 
