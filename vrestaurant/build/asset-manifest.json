@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36e92cc9.css",
+    "main.js": "/static/js/main.638bfccf.js",
+    "static/js/703.1b5e4d60.chunk.js": "/static/js/703.1b5e4d60.chunk.js",
+    "static/js/13.b875d223.chunk.js": "/static/js/13.b875d223.chunk.js",
+    "static/js/787.8d293ecf.chunk.js": "/static/js/787.8d293ecf.chunk.js",
+    "static/media/shutterstock_348320018@3x.jpg": "/static/media/shutterstock_348320018@3x.55bed8cc1081c895f49a.jpg",
+    "static/media/drinks.jpg": "/static/media/drinks.340874dd7f2d5f4e409d.jpg",
+    "static/media/dinner.jpg": "/static/media/dinner.1dc0f62788c46704b7de.jpg",
+    "static/media/snacks.jpg": "/static/media/snacks.0d8e1babdae3c8322d23.jpg",
+    "static/media/nightlife.jpg": "/static/media/nightlife.fa268723c13ed5fcb56c.jpg",
+    "static/media/breakfast.jpg": "/static/media/breakfast.944d3b00de066955275a.jpg",
+    "static/media/lunch.jpg": "/static/media/lunch.e79a9bd36115250516b8.jpg",
+    "static/media/breakfast1111.png": "/static/media/breakfast1111.49dc5571068f14b346e7.png",
+    "static/media/shutterstock_1154073754jpg.jpg": "/static/media/shutterstock_1154073754jpg.1eb4907226efb3d6c26e.jpg",
+    "static/media/148-1484366_saturday-october-19-red-right-arrow-png.png": "/static/media/148-1484366_saturday-october-19-red-right-arrow-png.3d8de05bc972ae3799a7.png",
+    "static/media/724-7247376_search-bar-magnifying-glass-hd-png-download.png": "/static/media/724-7247376_search-bar-magnifying-glass-hd-png-download.5688c29e611d433297d1.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "index.html": "/index.html",
+    "main.36e92cc9.css.map": "/static/css/main.36e92cc9.css.map",
+    "main.638bfccf.js.map": "/static/js/main.638bfccf.js.map",
+    "703.1b5e4d60.chunk.js.map": "/static/js/703.1b5e4d60.chunk.js.map",
+    "13.b875d223.chunk.js.map": "/static/js/13.b875d223.chunk.js.map",
+    "787.8d293ecf.chunk.js.map": "/static/js/787.8d293ecf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e92cc9.css",
+    "static/js/main.638bfccf.js"
+  ]
+}
