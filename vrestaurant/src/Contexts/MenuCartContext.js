@@ -191,7 +191,7 @@ const InitialState = {
     useEffect(() => {
 
       
-      fetch(`https://v-restaurant.herokuapp.com/zomato/menu/${Restaurantname}`)
+      fetch(`https://vrestaurant.onrender.com/zomato/menu/${Restaurantname}`)
       .then(res => res.json())
       .then(data => {
         dispatch({type:'AddMainMenu', payload: {Menu : data.data}})
