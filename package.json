@@ -13,7 +13,7 @@
     "start": "node app.js",
     "server": "nodemon app.js",
     "vrestaurant": "npm start --prefix vrestaurant",
-    "vrestaurantinstall": "npm install --prefix vrestarurant",
+    "vrestaurantinstall": "npm install --prefix vrestaurant",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix vrestaurant && npm run build --prefix vrestaurant"
   },
   "author": "Vishal",
