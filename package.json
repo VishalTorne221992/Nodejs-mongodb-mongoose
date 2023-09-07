@@ -11,6 +11,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
+    "server": "nodemon app.js",
+    "vrestaurant": "npm start --prefix vrestaurant",
+    "vrestaurantinstall": "npm install --prefix vrestarurant",
+    "dev": "concurrently \"npm run server\" \"npm run 
+       vrestaurant\"",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix vrestaurant && npm run build --prefix vrestaurant"
   },
   "author": "Vishal",
