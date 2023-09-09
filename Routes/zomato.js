@@ -102,13 +102,13 @@ Router.get("/menu/:name", MenuController.getAllMenuByRestaurantName)
 
 Router.get('/TestPage', (req, res) => {
     console.log(req.isAuthenticated())
-    res.redirect('https://v-restaurant.herokuapp.com/TestPage')
+    res.redirect('https://vrestaurantapp.onrender.com/TestPage')
 })
 
 function checkAuthenticated(req, res, next){
     
        if(req.isAuthenticated()) {return next()}
-       res.redirect('https://v-restaurant.herokuapp.com/')
+       res.redirect('https://vrestaurantapp.onrender.com/')
        
         
 
@@ -122,7 +122,7 @@ Router.delete('/logout', function(req, res){
     console.log(req.session)
     console.log(req.sessionID,'this is session Id')
     
-    res.redirect(303,'https://vrestaurant.onrender.com/')
+    res.redirect(303,'https://vrestaurantapp.onrender.com/')
     //res.json({data:'hello deleted'})
 })
 
