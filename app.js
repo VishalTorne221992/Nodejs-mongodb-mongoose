@@ -24,7 +24,7 @@ var app = express()
 // add middleware before routes
 app.use(bodyParser.json())
 app.use(cors({
-    origin: 'https://vrestaurant.onrender.com'
+    origin: ["https://vrestaurant.onrender.com", "https://vrestaurantapp.onrender.com"]
 }))
 
 // app.use(function(req, res, next) {
