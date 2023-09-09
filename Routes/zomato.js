@@ -108,7 +108,7 @@ Router.get('/TestPage', (req, res) => {
 function checkAuthenticated(req, res, next){
     
        if(req.isAuthenticated()) {return next()}
-       res.redirect('https://vrestaurantapp.onrender.com/')
+       res.redirect('https://vrestaurant.onrender.com/')
        
         
 
