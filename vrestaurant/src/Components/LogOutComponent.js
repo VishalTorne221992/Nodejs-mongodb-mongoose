@@ -15,7 +15,7 @@ export default class LogOutComponent extends Component {
     //   if(res.redirected){window.location.href = res.url}
     // })
 
-    fetch('https://vrestaurantapp.onrender.com/zomato/logout', {
+    fetch('https://vrestaurant.onrender.com/zomato/logout', {
       method:'DELETE',
       redirect:'follow'
     }).then(res => {
